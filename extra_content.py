@@ -287,61 +287,48 @@ MODULE_10 = {
                   "cannot verify."),
         ], "terms": [("Traceability", "The ability to trace a control claim to its evidence, AO and collection method."),
                      ("Peer review", "Review by min 2 peers, required for submission.")]},
-    ],
         {
             "id": "10.6",
             "title": "Sample Capstone Evidence Assessments",
             "minutes": 40,
             "blocks": [
-                P("The following are anonymized evidence assessment examples from the capstone cohort. Each shows "
-                  "how a student mapped evidence to controls, AOs, and collection methods, and how an assessor "
-                  "would score them."),
+                P("Anonymized evidence assessment examples from the capstone cohort."),
                 TBL(["Student", "Control", "AO", "Evidence Artifact", "Method", "Disposition", "Observation"], [
-                    ["Alice Chen", "GOV-01", "GOV-01_A01", "Governance policy v3.2 (signed by CEO)", "Examine", "P", "Policy approved by executive management. Satisfies AO."],
+                    ["Alice Chen", "GOV-01", "GOV-01_A01", "Governance policy v3.2 (CEO-signed)", "Examine", "P", "Policy approved by executive management."],
                     ["Alice Chen", "GOV-01", "GOV-01_A04", "Annual review memo 2026-01-15", "Examine", "P", "Review completed within 12-month cycle."],
                     ["Alice Chen", "IAC-01", "IAC-01_A01", "User access matrix Q1 2026", "Examine + Test", "P", "Unique IDs assigned; tested via AD export."],
-                    ["Bob Martinez", "GOV-01", "GOV-01_A01", "Governance policy v2.1 (unsigned draft)", "Examine", "F", "Policy not approved by executive management. Deficient."],
-                    ["Bob Martinez", "GOV-01", "GOV-01_A04", "No review evidence provided", "Examine", "F", "No evidence of annual review. Deficient."],
-                    ["Bob Martinez", "IAC-01", "IAC-01_A01", "User access matrix Q1 2026", "Examine", "P", "Unique IDs assigned. Satisfies AO."],
-                    ["Carol Johnson", "DCH-02", "DCH-02_A01", "Data classification matrix + sensitivity labels", "Examine + Test", "P", "All data classified per scheme. Tested via sample."],
-                    ["Carol Johnson", "DCH-02", "DCH-02_A02", "Retention schedule + disposal log", "Examine", "P", "Retention periods documented and enforced."],
-                    ["David Park", "GOV-01", "GOV-01_A01", "Verbal confirmation from IT manager", "Interview", "F", "Interview alone insufficient; no documented policy. Deficient."],
-                    ["David Park", "NET-02", "NET-02_A01", "Firewall config export", "Examine", "CC", "Compensating control: network segmentation compensates for missing NAC."],
-                    ["Eve Williams", "CRY-01", "CRY-01_A01", "Encryption standard doc + key mgmt procedure", "Examine", "P", "AES-256 in transit and at rest. Satisfies AO."],
-                    ["Eve Williams", "CRY-01", "CRY-01_A02", "Key rotation log (quarterly)", "Examine + Test", "P", "Rotation verified via log review."],
+                    ["Bob Martinez", "GOV-01", "GOV-01_A01", "Governance policy v2.1 (unsigned draft)", "Examine", "F", "Policy not approved. Deficient."],
+                    ["Bob Martinez", "GOV-01", "GOV-01_A04", "No review evidence", "Examine", "F", "No annual review evidence. Deficient."],
+                    ["Carol Johnson", "DCH-02", "DCH-02_A01", "Data classification matrix + labels", "Examine + Test", "P", "All data classified per scheme."],
+                    ["David Park", "GOV-01", "GOV-01_A01", "Verbal confirmation from IT manager", "Interview", "F", "Verbal only; no documented policy. Deficient."],
+                    ["David Park", "NET-02", "NET-02_A01", "Firewall config export", "Examine", "CC", "Compensating: network segmentation for missing NAC."],
+                    ["Eve Williams", "CRY-01", "CRY-01_A01", "Encryption standard + key mgmt procedure", "Examine", "P", "AES-256 in transit and at rest."],
                     ["Frank Lee", "BCD-01", "BCD-01_A01", "BC/DR plan v1.0 (2024, untested)", "Examine", "F", "Plan exists but never tested. Deficient."],
                     ["Frank Lee", "BCD-01", "BCD-01_A02", "No test evidence", "Test", "F", "No failover test conducted. Deficient."],
                     ["Grace Kim", "TPM-01", "TPM-01_A01", "Vendor risk assessment (3 vendors)", "Examine + Interview", "P", "Third-party risks assessed and documented."],
-                    ["Grace Kim", "TPM-01", "TPM-01_A02", "Contractual security clauses (sample 2)", "Examine", "P", "Security requirements in vendor contracts."],
                     ["Henry Brown", "SAT-01", "SAT-01_A01", "Training completion report 2025", "Examine", "P", "Annual security awareness training completed."],
-                    ["Henry Brown", "SAT-01", "SAT-01_A02", "Phishing simulation results (Q3 2025)", "Examine + Test", "CC", "Compensating: phishing sim compensates for missing formal curriculum."],
-                    ["Ivy Taylor", "IRO-01", "IRO-01_A01", "IR plan v2.0 + tabletop exercise AAR", "Examine + Test", "P", "IR plan tested via tabletop. Satisfies AO."],
+                    ["Henry Brown", "SAT-01", "SAT-01_A02", "Phishing simulation results Q3 2025", "Examine + Test", "CC", "Compensating: phishing sim for missing formal curriculum."],
+                    ["Ivy Taylor", "IRO-01", "IRO-01_A01", "IR plan v2.0 + tabletop AAR", "Examine + Test", "P", "IR plan tested via tabletop exercise."],
                     ["Ivy Taylor", "IRO-01", "IRO-01_A02", "Incident log 2025 (3 incidents)", "Examine", "P", "Incidents logged and tracked to closure."],
                     ["Jack Wilson", "VPM-01", "VPM-01_A01", "No patch management evidence", "Examine", "F", "No patch management process documented. Deficient."],
                     ["Jack Wilson", "VPM-01", "VPM-01_A02", "No vulnerability scan results", "Test", "F", "No vulnerability scanning performed. Deficient."],
-                ], caption="Sample capstone evidence assessments (22 entries)"),
+                ], caption="Sample capstone evidence assessments (18 entries)"),
                 P("Key takeaways from the evidence assessment:"),
                 OL([
-                    "Students who passed (Alice, Carol, Eve, Grace, Henry, Ivy) consistently provided evidence "
-                    "that was (1) specific to the AO, (2) current, and (3) verifiable by an independent assessor.",
-                    "Students who failed (David, Frank, Jack) commonly provided evidence that was (1) verbal "
-                    "rather than documented, (2) stale or untested, or (3) absent entirely.",
-                    "Compensating controls (David's network segmentation, Henry's phishing simulation) were "
-                    "accepted only where the three validation tests (applicable, reasonable, operating) were met.",
-                    "The most frequent audit observation was 'evidence provided does not satisfy the AO' - "
-                    "meaning the student submitted something, but it did not answer the specific objective.",
+                    "Students who passed consistently provided evidence that was specific, current, and independently verifiable.",
+                    "Students who failed commonly provided evidence that was verbal only, stale, untested, or absent.",
+                    "Compensating controls were accepted only where the three validation tests (applicable, reasonable, operating) were met.",
+                    "The most frequent audit observation: evidence provided does not satisfy the specific AO.",
                 ]),
-                NOTE("Evidence quality spectrum",
-                     "Pass: evidence is specific, current, and independently verifiable. "
-                     "Partial: evidence exists but is incomplete or stale. "
-                     "Fail: evidence is absent, verbal only, or does not address the AO. "
-                     "Compensating: an alternative control provides equivalent protection."),
+                NOTE("Evidence quality spectrum", "Pass: specific, current, verifiable. Partial: exists but incomplete. "
+                      "Fail: absent, verbal only, or off-target. Compensating: alternative provides equivalent protection."),
             ],
             "terms": [
                 ("Evidence quality", "Pass/Partial/Fail/Compensating - the four evidence assessment outcomes."),
                 ("AO-to-evidence traceability", "The ability to trace each AO to a specific evidence artifact."),
             ],
         },
+    ],
     "questions": [
         Q("m10q1", "single", "How many phases does the SCF lifecycle have?",
           [("Wrong", "5"), ("Wrong", "7"), ("Correct", "9 (phases 0-8)"), ("Wrong", "12")],

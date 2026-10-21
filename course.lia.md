@@ -19,7 +19,7 @@ The course is built strictly from the SCF-2026.3 source bundle. Figures quoted t
 |  |  |
 |---|---|
 | Modules | 10 |
-| Lessons | 56 |
+| Lessons | 57 |
 | Knowledge checks | 60 |
 | Estimated effort | 53 hours |
 | Release | SCF 2026.3 |
@@ -2759,6 +2759,51 @@ Three patterns emerged:
 
 - **Traceability** - The ability to trace a control claim to its evidence, AO and collection method.
 - **Peer review** - Review by min 2 peers, required for submission.
+
+## 10.6 Sample Capstone Evidence Assessments
+
+_40 minutes_
+
+Anonymized evidence assessment examples from the capstone cohort.
+
+**Sample capstone evidence assessments (18 entries)**
+
+| Student | Control | AO | Evidence Artifact | Method | Disposition | Observation |
+|---|---|---|---|---|---|---|
+| Alice Chen | GOV-01 | GOV-01_A01 | Governance policy v3.2 (CEO-signed) | Examine | P | Policy approved by executive management. |
+| Alice Chen | GOV-01 | GOV-01_A04 | Annual review memo 2026-01-15 | Examine | P | Review completed within 12-month cycle. |
+| Alice Chen | IAC-01 | IAC-01_A01 | User access matrix Q1 2026 | Examine + Test | P | Unique IDs assigned; tested via AD export. |
+| Bob Martinez | GOV-01 | GOV-01_A01 | Governance policy v2.1 (unsigned draft) | Examine | F | Policy not approved. Deficient. |
+| Bob Martinez | GOV-01 | GOV-01_A04 | No review evidence | Examine | F | No annual review evidence. Deficient. |
+| Carol Johnson | DCH-02 | DCH-02_A01 | Data classification matrix + labels | Examine + Test | P | All data classified per scheme. |
+| David Park | GOV-01 | GOV-01_A01 | Verbal confirmation from IT manager | Interview | F | Verbal only; no documented policy. Deficient. |
+| David Park | NET-02 | NET-02_A01 | Firewall config export | Examine | CC | Compensating: network segmentation for missing NAC. |
+| Eve Williams | CRY-01 | CRY-01_A01 | Encryption standard + key mgmt procedure | Examine | P | AES-256 in transit and at rest. |
+| Frank Lee | BCD-01 | BCD-01_A01 | BC/DR plan v1.0 (2024, untested) | Examine | F | Plan exists but never tested. Deficient. |
+| Frank Lee | BCD-01 | BCD-01_A02 | No test evidence | Test | F | No failover test conducted. Deficient. |
+| Grace Kim | TPM-01 | TPM-01_A01 | Vendor risk assessment (3 vendors) | Examine + Interview | P | Third-party risks assessed and documented. |
+| Henry Brown | SAT-01 | SAT-01_A01 | Training completion report 2025 | Examine | P | Annual security awareness training completed. |
+| Henry Brown | SAT-01 | SAT-01_A02 | Phishing simulation results Q3 2025 | Examine + Test | CC | Compensating: phishing sim for missing formal curriculum. |
+| Ivy Taylor | IRO-01 | IRO-01_A01 | IR plan v2.0 + tabletop AAR | Examine + Test | P | IR plan tested via tabletop exercise. |
+| Ivy Taylor | IRO-01 | IRO-01_A02 | Incident log 2025 (3 incidents) | Examine | P | Incidents logged and tracked to closure. |
+| Jack Wilson | VPM-01 | VPM-01_A01 | No patch management evidence | Examine | F | No patch management process documented. Deficient. |
+| Jack Wilson | VPM-01 | VPM-01_A02 | No vulnerability scan results | Test | F | No vulnerability scanning performed. Deficient. |
+
+Key takeaways from the evidence assessment:
+
+1. Students who passed consistently provided evidence that was specific, current, and independently verifiable.
+2. Students who failed commonly provided evidence that was verbal only, stale, untested, or absent.
+3. Compensating controls were accepted only where the three validation tests (applicable, reasonable, operating) were met.
+4. The most frequent audit observation: evidence provided does not satisfy the specific AO.
+
+> **Evidence quality spectrum**
+>
+> Pass: specific, current, verifiable. Partial: exists but incomplete. Fail: absent, verbal only, or off-target. Compensating: alternative provides equivalent protection.
+
+### Key terms
+
+- **Evidence quality** - Pass/Partial/Fail/Compensating - the four evidence assessment outcomes.
+- **AO-to-evidence traceability** - The ability to trace each AO to a specific evidence artifact.
 
 ## Module 10 knowledge check
 

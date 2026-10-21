@@ -453,4 +453,191 @@ MODULE_9 = {
     ],
 }
 
-MODULES = [MODULE_8, MODULE_9]
+
+MODULE_10 = {
+    "id": 10,
+    "slug": "audit-evidence-capstone",
+    "title": "Audit, Evidence & Capstone Execution",
+    "hours": 4,
+    "competencies": ["documents", "sheets"],
+    "objectives": [
+        "Explain the eight-phase SCF lifecycle from focal documents to capstone mastery.",
+        "Map an evidence request (ERL) to its assessment objectives and controls.",
+        "Apply the audit observation tagging convention to a finding.",
+        "Describe the conformity assessment execution and reporting process.",
+        "Complete the capstone deliverables to the published rubric.",
+    ],
+    "lessons": [
+        {
+            "id": "10.1",
+            "title": "The Eight-Phase SCF Lifecycle",
+            "minutes": 40,
+            "blocks": [
+                P("The SCF lifecycle runs from source frameworks to certified mastery. Eight phases, each with "
+                  "its own artifacts, identifiers and audit checkpoints."),
+                TBL(["Phase", "Name", "Key artifacts", "Audit tag"], [
+                    ["0", "Source frameworks", "Focal Documents (270), STRM crosswalks", "[FD-<FDI>]"],
+                    ["1", "Control catalog", "1,591 controls, 34 domains, SCR-CMM L0-L5", "[CTL-<ID>]"],
+                    ["2", "Tailoring", "Living Control Set (MCR/DSR), compensating controls", "[LCS], [TAILOR]"],
+                    ["3", "Scoping", "USG zones 1-10, assessment boundary", "[ZONE-<n>]"],
+                    ["4", "Assessment objectives", "6,446 AOs, SDP, PPTDF, rigor", "[AO-<ID>]"],
+                    ["5", "Evidence", "422 ERLs, 30 areas of focus, collection methods", "[ERL-<n>]"],
+                    ["6", "Risk & threat", "65 risks, 14 groupings, 45 threats", "[RISK-<id>], [THR-<id>]"],
+                    ["7", "Assessment execution", "Control/conformity designations, ROC, certification", "[CTL-DESIG], [CONF-DESIG]"],
+                    ["8", "Capstone & mastery", "Assessment Report, Control Matrix, defense, peer review", "[CAP-REPORT], [CAP-MATRIX]"],
+                ], caption="The eight-phase SCF lifecycle"),
+            ],
+            "terms": [
+                ("Lifecycle phase", "One of eight phases from source frameworks to certified mastery."),
+                ("Audit tag", "Standardized tag for tagging evidence and observations."),
+            ],
+        },
+        {
+            "id": "10.2",
+            "title": "Audit Observation Tagging Convention",
+            "minutes": 45,
+            "blocks": [
+                P("Every audit finding is tagged with a standard structure so findings are traceable, "
+                  "comparable and reportable. The convention covers the full lifecycle."),
+                CODE("text", """[AUDIT-OBSERVATION]
+  Evidence ID:      ERL-<n> / AO-<id> / CTL-<id>
+  Phase:            0-8
+  Status:           Provided | Missing | Partial | N/A
+  Observation:      <finding text>
+  Risk ref:         [RISK-<id>] [RG-<name>]
+  Threat ref:       [THR-<id>] [NT/MT-<n>]
+  Designation:      [CTL-DESIG] / [CONF-DESIG]
+  Gap/Remediation:  <action required>"""),
+                P("Example: a governance policy reviewed only in 2025 would be tagged as a Deficient control "
+                  "with a remediation to complete the annual review before ROC delivery."),
+                NOTE("Disposition codes",
+                     "P = Pass (Satisfactory), F = Fail (Deficient), CC = Compensating Control, "
+                     "NA = Not Applicable, PND = Pending evidence."),
+            ],
+            "terms": [
+                ("Disposition", "P (Pass), F (Fail), CC (Compensating Control), NA (Not Applicable), PND (Pending)."),
+                ("ROC", "Report of Conformity - the deliverable of a conformity assessment."),
+            ],
+        },
+        {
+            "id": "10.3",
+            "title": "Conformity Assessment Execution",
+            "minutes": 50,
+            "blocks": [
+                P("The SCR CAP assessment runs in a fixed sequence. Each step produces a deliverable that "
+                  "feeds the next."),
+                OL([
+                    "**Scoping** - define the assessment boundary using the USG (zones 1-10).",
+                    "**Control selection** - identify in-scope controls from the tailored Living Control Set.",
+                    "**AO review** - pull AOs for each in-scope control; note the SDP minimums.",
+                    "**Evidence collection** - request artifacts per the ERL; record collection method.",
+                    "**Testing** - MPIT/APIT/AEHR at Standard/Enhanced/Comprehensive rigor.",
+                    "**Control designation** - Satisfactory / Deficient / Compensating / N/A per control.",
+                    "**Conformity designation** - Strictly Conforms / Conforms / Significant Deficiency / Material Weakness.",
+                    "**ROC delivery** - Report of Conformity issued to the OSA.",
+                    "**Certification** - three-year cycle: Year 1 full, Year 2 self-attest, Year 3 self-attest.",
+                ]),
+                TBL(["Step", "Output", "Disposition if failed"], [
+                    ["Scoping", "Assessment boundary document", "Re-scope and re-submit"],
+                    ["Control selection", "In-scope control list", "Re-tailor the LCS"],
+                    ["AO review", "AO test plan", "Re-scope AOs"],
+                    ["Evidence collection", "Evidence package", "Request missing evidence"],
+                    ["Testing", "Test results", "Re-test or re-designate"],
+                    ["Control designation", "Control-level designations", "Re-designate"],
+                    ["Conformity designation", "Conformity-level designation", "Remediate and re-assess"],
+                    ["ROC delivery", "Report of Conformity", "Re-issue after remediation"],
+                    ["Certification", "Certificate issued", "Re-assess in full"],
+                ], caption="Assessment execution sequence"),
+            ],
+            "terms": [
+                ("OSA", "Organization Seeking Assessment."),
+                ("CAB", "Conformity Assessment Body - the accredited assessor organization."),
+            ],
+        },
+        {
+            "id": "10.4",
+            "title": "Capstone: Assessment Report & Control Matrix",
+            "minutes": 60,
+            "blocks": [
+                P("The capstone has two deliverables weighted equally, plus a defense and peer review. It is "
+                  "the graded instrument that turns theory into demonstrated capability."),
+                TBL(["Deliverable", "Format", "Weight", "Key content"], [
+                    ["Assessment Report", "Document", "50%", "Scope, methodology, findings, designations, recommendations"],
+                    ["Control Matrix", "Spreadsheet/code", "50%", "Control-to-evidence mapping, AO results, dispositions"],
+                ], caption="Capstone deliverables"),
+                UL([
+                    "**Defense presentation**: 15 minutes to a panel of three assessors.",
+                    "**Peer review**: minimum of two reviewers per submission.",
+                    "**Rubric**: Accuracy, scored on four levels - Errors, Partial, Good, Excellent (100% weight).",
+                    "**Mastery threshold**: 70%.",
+                ]),
+                NOTE("Evaluation framework",
+                     "Formative 30% (threshold 60), Summative 40% (threshold 70), Capstone 30% (threshold 70). "
+                     "Retakes allowed, max 3 attempts."),
+            ],
+            "terms": [
+                ("Capstone", "The graded end-of-course project."),
+                ("Peer review", "Review by minimum two peers, required for submission."),
+            ],
+        },
+    ],
+    "questions": [
+        Q("m10q1", "single",
+          "How many phases does the SCF lifecycle have, from source frameworks to capstone mastery?",
+          [("Wrong", "5"),
+           ("Wrong", "7"),
+           ("Correct", "9 (phases 0-8)"),
+           ("Wrong", "12")],
+          explain="Eight phases numbered 0-8: source frameworks, control catalog, tailoring, scoping, "
+                  "assessment objectives, evidence, risk/threat, assessment execution, capstone/mastery.",
+          competency="documents"),
+        Q("m10q2", "single",
+          "Which disposition code indicates a compensating control was accepted?",
+          [("Wrong", "P"),
+           ("Wrong", "F"),
+           ("Correct", "CC"),
+           ("Wrong", "NA")],
+          explain="P = Pass, F = Fail, CC = Compensating Control accepted, NA = Not Applicable, PND = Pending.",
+          competency="documents"),
+        Q("m10q3", "multi",
+          "Which are the capstone deliverables and requirements?",
+          [("Correct", "Assessment Report worth 50%"),
+           ("Correct", "Control Matrix worth 50%"),
+           ("Correct", "15-minute defense to a panel of three"),
+           ("Correct", "Peer review by minimum two reviewers"),
+           ("Wrong", "A published tool conforming to CC BY-ND 4.0"),
+           ("Wrong", "A 40-page written examination")],
+          explain="Two deliverables at 50% each, plus defense and peer review. CC BY-ND is a licence constraint, "
+                  "not a grading instrument.",
+          competency="documents"),
+        Q("m10q4", "single",
+          "In which order does the conformity assessment execution proceed?",
+          [("Wrong", "Evidence collection -> scoping -> testing -> ROC"),
+           ("Correct", "Scoping -> control selection -> AO review -> evidence collection -> testing -> designation -> ROC -> certification"),
+           ("Wrong", "Testing -> scoping -> evidence -> designation"),
+           ("Wrong", "Certification -> ROC -> testing -> scoping")],
+          explain="Scoping comes first (USG zones), then control selection, AO review, evidence collection, "
+                  "testing, designation, ROC delivery, and finally certification.",
+          competency="documents"),
+        Q("m10q5", "single",
+          "What is the conformity designation for an assessment where 75% of controls meet the criteria?",
+          [("Wrong", "Conforms"),
+           ("Correct", "Significant Deficiency"),
+           ("Wrong", "Material Weakness"),
+           ("Wrong", "Strictly Conforms")],
+          explain="Significant Deficiency = at least 70% but less than 80%. 75% falls in that band.",
+          competency="documents"),
+        Q("m10q6", "single",
+          "What is the re-evaluation window for a Deficient control?",
+          [("Wrong", "Any time before the ROC is published"),
+           ("Wrong", "Within 30 business days"),
+           ("Correct", "During the assessment and up to 10 business days after the active assessment period"),
+           ("Wrong", "There is no re-evaluation window")],
+          explain="The window closes when the ROC is delivered to the OSA.",
+          competency="documents"),
+    ],
+}
+
+MODULES = [MODULE_10]
+
+MODULES = [MODULE_8, MODULE_9, MODULE_10]

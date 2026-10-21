@@ -18,10 +18,10 @@ The course is built strictly from the SCF-2026.3 source bundle. Figures quoted t
 
 |  |  |
 |---|---|
-| Modules | 9 |
-| Lessons | 51 |
-| Knowledge checks | 54 |
-| Estimated effort | 49 hours |
+| Modules | 10 |
+| Lessons | 55 |
+| Knowledge checks | 60 |
+| Estimated effort | 53 hours |
 | Release | SCF 2026.3 |
 | Format | LiAScript (offline-capable, self-assessing) |
 
@@ -38,6 +38,7 @@ The course is built strictly from the SCF-2026.3 source bundle. Figures quoted t
 | 7 | Conformity Assessment & Capstone | documents | 7 |
 | 8 | Risk & Threat Catalogs | catalog | 4 |
 | 9 | Assessment Practice & the Capstone | documents | 5 |
+| 10 | Audit, Evidence & Capstone Execution | documents, sheets | 4 |
 
 ## How each module is built
 
@@ -2577,4 +2578,203 @@ Which are the capstone's deliverables and requirements?
 [[ ]] A 40-page written examination
 ***
 The two deliverables carry 50% each, and the defense and peer review are both required. The CC BY-ND restriction is a licence constraint on SCF content, not a grading instrument.
+***
+
+# Module 10 - Audit, Evidence & Capstone Execution
+
+Estimated effort: **4 hours**. Competency: **documents, sheets**.
+
+## Learning objectives
+
+- Explain the eight-phase SCF lifecycle from focal documents to capstone mastery.
+
+- Map an evidence request (ERL) to its assessment objectives and controls.
+
+- Apply the audit observation tagging convention to a finding.
+
+- Describe the conformity assessment execution and reporting process.
+
+- Complete the capstone deliverables to the published rubric.
+
+## 10.1 The Eight-Phase SCF Lifecycle
+
+_40 minutes_
+
+The SCF lifecycle runs from source frameworks to certified mastery. Eight phases, each with its own artifacts, identifiers and audit checkpoints.
+
+**The eight-phase SCF lifecycle**
+| Phase | Name | Key artifacts | Audit tag |
+|---|---|---|---|
+| 0 | Source frameworks | Focal Documents (270), STRM crosswalks | [FD-<FDI>] |
+| 1 | Control catalog | 1,591 controls, 34 domains, SCR-CMM L0-L5 | [CTL-<ID>] |
+| 2 | Tailoring | Living Control Set (MCR/DSR), compensating controls | [LCS], [TAILOR] |
+| 3 | Scoping | USG zones 1-10, assessment boundary | [ZONE-<n>] |
+| 4 | Assessment objectives | 6,446 AOs, SDP, PPTDF, rigor | [AO-<ID>] |
+| 5 | Evidence | 422 ERLs, 30 areas of focus, collection methods | [ERL-<n>] |
+| 6 | Risk & threat | 65 risks, 14 groupings, 45 threats | [RISK-<id>], [THR-<id>] |
+| 7 | Assessment execution | Control/conformity designations, ROC, certification | [CTL-DESIG], [CONF-DESIG] |
+| 8 | Capstone & mastery | Assessment Report, Control Matrix, defense, peer review | [CAP-REPORT], [CAP-MATRIX] |
+
+### Key terms
+
+- **Lifecycle phase** - One of eight phases from source frameworks to certified mastery.
+- **Audit tag** - Standardized tag for tagging evidence and observations.
+
+## 10.2 Audit Observation Tagging Convention
+
+_45 minutes_
+
+Every audit finding is tagged with a standard structure so findings are traceable, comparable and reportable. The convention covers the full lifecycle.
+
+```text
+[AUDIT-OBSERVATION]
+  Evidence ID:      ERL-<n> / AO-<id> / CTL-<id>
+  Phase:            0-8
+  Status:           Provided | Missing | Partial | N/A
+  Observation:      <finding text>
+  Risk ref:         [RISK-<id>] [RG-<name>]
+  Threat ref:       [THR-<id>] [NT/MT-<n>]
+  Designation:      [CTL-DESIG] / [CONF-DESIG]
+  Gap/Remediation:  <action required>
+```
+
+Example: a governance policy reviewed only in 2025 would be tagged as a Deficient control with a remediation to complete the annual review before ROC delivery.
+
+> **Disposition codes**
+>
+> P = Pass (Satisfactory), F = Fail (Deficient), CC = Compensating Control, NA = Not Applicable, PND = Pending evidence.
+
+### Key terms
+
+- **Disposition** - P (Pass), F (Fail), CC (Compensating Control), NA (Not Applicable), PND (Pending).
+- **ROC** - Report of Conformity - the deliverable of a conformity assessment.
+
+## 10.3 Conformity Assessment Execution
+
+_50 minutes_
+
+The SCR CAP assessment runs in a fixed sequence. Each step produces a deliverable that feeds the next.
+
+1. **Scoping** - define the assessment boundary using the USG (zones 1-10).
+2. **Control selection** - identify in-scope controls from the tailored Living Control Set.
+3. **AO review** - pull AOs for each in-scope control; note the SDP minimums.
+4. **Evidence collection** - request artifacts per the ERL; record collection method.
+5. **Testing** - MPIT/APIT/AEHR at Standard/Enhanced/Comprehensive rigor.
+6. **Control designation** - Satisfactory / Deficient / Compensating / N/A per control.
+7. **Conformity designation** - Strictly Conforms / Conforms / Significant Deficiency / Material Weakness.
+8. **ROC delivery** - Report of Conformity issued to the OSA.
+9. **Certification** - three-year cycle: Year 1 full, Year 2 self-attest, Year 3 self-attest.
+
+**Assessment execution sequence**
+| Step | Output | Disposition if failed |
+|---|---|---|
+| Scoping | Assessment boundary document | Re-scope and re-submit |
+| Control selection | In-scope control list | Re-tailor the LCS |
+| AO review | AO test plan | Re-scope AOs |
+| Evidence collection | Evidence package | Request missing evidence |
+| Testing | Test results | Re-test or re-designate |
+| Control designation | Control-level designations | Re-designate |
+| Conformity designation | Conformity-level designation | Remediate and re-assess |
+| ROC delivery | Report of Conformity | Re-issue after remediation |
+| Certification | Certificate issued | Re-assess in full |
+
+### Key terms
+
+- **OSA** - Organization Seeking Assessment.
+- **CAB** - Conformity Assessment Body - the accredited assessor organization.
+
+## 10.4 Capstone: Assessment Report & Control Matrix
+
+_60 minutes_
+
+The capstone has two deliverables weighted equally, plus a defense and peer review. It is the graded instrument that turns theory into demonstrated capability.
+
+**Capstone deliverables**
+| Deliverable | Format | Weight | Key content |
+|---|---|---|---|
+| Assessment Report | Document | 50% | Scope, methodology, findings, designations, recommendations |
+| Control Matrix | Spreadsheet/code | 50% | Control-to-evidence mapping, AO results, dispositions |
+
+- **Defense presentation**: 15 minutes to a panel of three assessors.
+- **Peer review**: minimum of two reviewers per submission.
+- **Rubric**: Accuracy, scored on four levels - Errors, Partial, Good, Excellent (100% weight).
+- **Mastery threshold**: 70%.
+
+> **Evaluation framework**
+>
+> Formative 30% (threshold 60), Summative 40% (threshold 70), Capstone 30% (threshold 70). Retakes allowed, max 3 attempts.
+
+### Key terms
+
+- **Capstone** - The graded end-of-course project.
+- **Peer review** - Review by minimum two peers, required for submission.
+
+## Module 10 knowledge check
+
+How many phases does the SCF lifecycle have, from source frameworks to capstone mastery?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] 5
+[( )] 7
+[(X)] 9 (phases 0-8)
+[( )] 12
+***
+Eight phases numbered 0-8: source frameworks, control catalog, tailoring, scoping, assessment objectives, evidence, risk/threat, assessment execution, capstone/mastery.
+***
+
+Which disposition code indicates a compensating control was accepted?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] P
+[( )] F
+[(X)] CC
+[( )] NA
+***
+P = Pass, F = Fail, CC = Compensating Control accepted, NA = Not Applicable, PND = Pending.
+***
+
+Which are the capstone deliverables and requirements?
+
+<!-- data-randomize data-max-trials="3" -->
+[[X]] Assessment Report worth 50%
+[[X]] Control Matrix worth 50%
+[[X]] 15-minute defense to a panel of three
+[[X]] Peer review by minimum two reviewers
+[[ ]] A published tool conforming to CC BY-ND 4.0
+[[ ]] A 40-page written examination
+***
+Two deliverables at 50% each, plus defense and peer review. CC BY-ND is a licence constraint, not a grading instrument.
+***
+
+In which order does the conformity assessment execution proceed?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Evidence collection -> scoping -> testing -> ROC
+[(X)] Scoping -> control selection -> AO review -> evidence collection -> testing -> designation -> ROC -> certification
+[( )] Testing -> scoping -> evidence -> designation
+[( )] Certification -> ROC -> testing -> scoping
+***
+Scoping comes first (USG zones), then control selection, AO review, evidence collection, testing, designation, ROC delivery, and finally certification.
+***
+
+What is the conformity designation for an assessment where 75% of controls meet the criteria?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Conforms
+[(X)] Significant Deficiency
+[( )] Material Weakness
+[( )] Strictly Conforms
+***
+Significant Deficiency = at least 70% but less than 80%. 75% falls in that band.
+***
+
+What is the re-evaluation window for a Deficient control?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Any time before the ROC is published
+[( )] Within 30 business days
+[(X)] During the assessment and up to 10 business days after the active assessment period
+[( )] There is no re-evaluation window
+***
+The window closes when the ROC is delivered to the OSA.
 ***

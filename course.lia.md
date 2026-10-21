@@ -19,7 +19,7 @@ The course is built strictly from the SCF-2026.3 source bundle. Figures quoted t
 |  |  |
 |---|---|
 | Modules | 10 |
-| Lessons | 55 |
+| Lessons | 56 |
 | Knowledge checks | 60 |
 | Estimated effort | 53 hours |
 | Release | SCF 2026.3 |
@@ -102,6 +102,7 @@ _45 minutes_
 The SCF treats security, compliance and resilience as a single combined objective. The shorthand used by the SCF Council is memorable:
 
 **The SCR equation**
+
 | Equation | Means |
 |---|---|
 | Security | Prevent |
@@ -140,6 +141,7 @@ The SCF established 34 common-sense principles to guide the development and over
 Every domain in 2026.3 is listed below with its control count, verified directly against the control catalog. The domain identifiers are stable, they are the join key for the whole framework, and they never change even when the controls inside them are renumbered.
 
 **The 34 SCF domains and their 2026.3 control counts**
+
 | # | ID | SCF Domain | Controls |
 |---|---|---|---|
 | 1 | GOV | Security, Compliance & Resilience Governance | 37 |
@@ -204,6 +206,7 @@ _55 minutes_
 Minimizing an attack surface must address more than technical threats. The SCF process defines a **Living Control Set (LCS)** that specifies the Minimum Security Requirements (MSR) necessary to be secure, compliant and resilient. An LCS is built from two distinct kinds of requirement:
 
 **Minimum Security Requirements decompose into MCR and DSR**
+
 | Requirement type | Full name | Driven by | Focus |
 |---|---|---|---|
 | MCR | Minimum Compliance Requirements | Applicable laws, regulations and contracts | Compliance |
@@ -244,6 +247,7 @@ _45 minutes_
 Three SCF Council deliverables answer three different questions, and confusing them is the most common source of wasted effort:
 
 **The three-part SCR answer**
+
 | Artifact | Question it answers | Purpose |
 |---|---|---|
 | SCF | What? | A 1,500+ control catalog covering 34 domains. |
@@ -277,6 +281,7 @@ _40 minutes_
 This course is built on the SCF Competency Framework. Five competencies are assessed, each at a defined Bloom level and each with four mastery levels.
 
 **The five SCF competencies assessed by this course**
+
 | Competency | Description | Bloom level | Badge |
 |---|---|---|---|
 | Catalog | Control catalog knowledge | Understand | Catalog Badge |
@@ -288,6 +293,7 @@ This course is built on the SCF Competency Framework. Five competencies are asse
 Mastery is reported on four levels - **Beginning** (basic awareness), **Developing** (working knowledge), **Proficient** (applied competence) and **Exemplary** (mastery). The assessment framework weights three components:
 
 **Evaluation framework**
+
 | Component | Weight | Mastery threshold | Instrument |
 |---|---|---|---|
 | Formative | 30% | 60% | Quiz |
@@ -408,6 +414,7 @@ _50 minutes_
 The SCF 2026.3 control catalog contains **1,591 controls**. That total is made up of **812 top-level controls** and **779 subcontrols**, distributed across the 34 domains. Every one of the 1,591 controls carries at least one Assessment Objective.
 
 **The SCF 2026.3 catalog at a glance**
+
 | Measure | 2026.3 value |
 |---|---|
 | Domains | 34 |
@@ -486,6 +493,7 @@ _60 minutes_
 Control counts vary enormously across domains, and the shape of the distribution tells you something about where the SCF Council placed its attention in 2026.3.
 
 **Largest and smallest domains by control count**
+
 | Domain | Controls | Domain | Controls |
 |---|---|---|---|
 | AAT | 160 | NET | 103 |
@@ -534,6 +542,7 @@ The result is a SCF control set tailored for your specific needs - a Living Cont
 ### Three tiers of obligation
 
 **Where obligations come from**
+
 | Tier | Source | Effect |
 |---|---|---|
 | Statutory requirements | Law | Mandatory. Non-compliance is a legal exposure. |
@@ -569,6 +578,7 @@ A control tells you *what* must be true. A **control objective** tells you *what
 The SCF's capability maturity model is the **Secure, Compliant & Resilient Capability Maturity Model (SCR-CMM)**. It is a well-established six-level model, applied in a nested fashion:
 
 **SCR-CMM capability maturity levels**
+
 | Level | Name | Meaning |
 |---|---|---|
 | L0 | Not Performed | No control activity exists. |
@@ -685,6 +695,7 @@ A **Focal Document (FD)** is an authoritative external source - a law, regulatio
 Each focal document is recorded with four identifiers plus its mapping document URL:
 
 **Anatomy of a Focal Document record**
+
 | Field | Meaning |
 |---|---|
 | Geography | Which part of the world the document applies to. |
@@ -708,6 +719,7 @@ _45 minutes_
 The 270 focal documents are distributed across five geographies. The distribution is a direct reflection of where regulatory demand is concentrated, and it is a useful sanity check on your own scoping assumptions.
 
 **Focal document coverage by geography (270 total)**
+
 | Geography | Focal documents | Share of total |
 |---|---|---|
 | General (global) | 93 | 34% |
@@ -739,6 +751,7 @@ The SCF leverages NIST IR 8477's concepts for Set Theory Relationship Mapping (S
 Every FD has a dedicated STRM document that states, relationship by relationship, how the external requirement relates to SCF controls. Five relationship types are used:
 
 **The five STRM relationship types (NIST IR 8477)**
+
 | # | Relationship type | Meaning |
 |---|---|---|
 | 1 | SUBSET OF | The external requirement is a subset of the SCF control. |
@@ -777,6 +790,7 @@ The USG applies to sensitive data types including Artificial Intelligence and Ma
 ### The ten USG zones
 
 **The ten USG scoping zones**
+
 | Zone | Name | What it covers |
 |---|---|---|
 | 1 | Sensitive Data Assets (SDA) | Systems, services and applications that directly P/S/T sensitive or regulated data. |
@@ -917,6 +931,7 @@ _50 minutes_
 An **Assessment Objective (AO)** is an objective statement that establishes the desired outcome for the assessment of a specific control. There may be multiple AOs associated with a control. The SCF 2026.3 release defines **6,446 Assessment Objectives** across **all 1,591 controls**.
 
 **Assessment Objective coverage across the 2026.3 catalog**
+
 | Measure | Value |
 |---|---|
 | Assessment Objectives | 6,446 |
@@ -961,6 +976,7 @@ _55 minutes_
 The assessment objectives sheet carries 23 columns. Not all of them are used on every row, but you need to know which columns carry decision-relevant information when you are scoping or assessing.
 
 **The AO sheet's decision-relevant columns**
+
 | Column | What it tells you |
 |---|---|
 | SCF # | The control the objective belongs to. |
@@ -1013,6 +1029,7 @@ The reciprocal columns do the same job for NIST: the sheet carries CMMC Level 1 
 A worked pairing from the AO sheet:
 
 **GOV-02 objectives, their origins and NIST reciprocals**
+
 | SCF AO | Origin | Reciprocal NIST 800-53A |
 |---|---|---|
 | GOV-02_A01 | 53A_R5_PM-01a.[01] | Governance policy is documented and approved. |
@@ -1050,6 +1067,7 @@ Legacy mappings        AAT-01
 ### Where the evidence burden sits
 
 **ERL counts across the 30 Areas of Focus (top and bottom shown)**
+
 | Area of Focus | ERLs |
 |---|---|
 | Security, Compliance & Resilience Governance | 58 |
@@ -1079,6 +1097,7 @@ _55 minutes_
 AOs and ERLs are two views of the same assessment problem, and the relationship between them is what makes the SCF sheets usable together.
 
 **AOs and ERLs side by side**
+
 |  | Assessment Objective | Evidence Request |
 |---|---|---|
 | Granularity | Per control - one or more per control. | Per artifact - many ERLs may map to one control. |
@@ -1225,6 +1244,7 @@ _55 minutes_
 The Change Overview sheet of the 2026.3 workbook carries one row per control - **1,591 rows** - and each row records the control's domain, name, new number, description, **Legacy SCF #** and a set of **errata tags** for 2026.3. Those tags are the machine-readable statement of what the Council did.
 
 **Errata tags recorded in the 2026.3 Change Overview sheet**
+
 | Errata tag | Controls | What it means |
 |---|---|---|
 | renumbered | 1,457 | The control kept its identity but was given a new SCF number. |
@@ -1263,6 +1283,7 @@ _50 minutes_
 The READ THIS sheet publishes the complete deprecation list: the name of each retired control, its legacy number, and the 2026.3 control it was merged into. This is the table you use when a colleague asks, "we had a control for that - is it gone?"
 
 **All 23 controls deprecated and removed in SCF 2026.3, with their merge targets**
+
 | Deprecated control | Legacy # | Merged into |
 |---|---|---|
 | Component Disposal | TDA-11.2 | AST-22 |
@@ -1306,6 +1327,7 @@ _50 minutes_
 The mapping is **many-to-one**. A single 2026.3 control can absorb several legacy controls, and the Legacy SCF # cell contains a newline-separated list when it does. Exactly **22** controls in 2026.3 carry a multi-value legacy cell - and those 22 are precisely the controls tagged *merged old*.
 
 **The 22 controls that absorbed deprecated controls in 2026.3**
+
 | 2026.3 control | Absorbed legacy controls |
 |---|---|
 | CHG-04.2 Role-Based Permissions To Implement Changes | END-03, CHG-04.4, NET-15.3 |
@@ -1357,6 +1379,7 @@ _40 minutes_
 Four places in the SCF tell you what changed. You need all four, because each answers a different question.
 
 **The four authoritative sources of change information**
+
 | Source | The question it answers |
 |---|---|
 | READ THIS sheet | What is the shape of the change, which controls were deprecated, and where each one went? |
@@ -1518,6 +1541,7 @@ For every law, regulation and framework the SCF covers, the Council publishes a 
 The name is the concept. Think of the SCF control set as a universal set. Each law, regulation or framework (LRF) is a subset of requirements. The STRM document is the statement of the relationship between that subset and the universal set - which SCF controls satisfy which LRF requirements, and how completely.
 
 **STRM library coverage in this bundle**
+
 | Dimension | Value |
 |---|---|
 | STRM documents in this bundle | 268 |
@@ -1550,6 +1574,7 @@ _50 minutes_
 SCF 2026.3 ships two catalogs that most practitioners never open, and they are among the most immediately useful artifacts in the whole framework.
 
 **The SCF risk and threat catalogs**
+
 | Catalog | Contents | The test it applies |
 |---|---|---|
 | Risk Catalog | 65 risks in 14 risk groupings | If the control is deficient, fails, is bypassed or otherwise does not achieve its intended outcome, what adverse consequence or organizational exposure could result? |
@@ -1558,6 +1583,7 @@ SCF 2026.3 ships two catalogs that most practitioners never open, and they are a
 The risk groupings and their sizes:
 
 **All 65 risks by grouping**
+
 | Risk grouping | Risks | Risk grouping | Risks |
 |---|---|---|---|
 | Exposure | 11 | Incident Response | 4 |
@@ -1594,6 +1620,7 @@ _45 minutes_
 The SCF ecosystem has a commercial and a community side, and knowing where each thing lives saves time.
 
 **The commercial and community surface of the SCF**
+
 | Resource | What it is for |
 |---|---|
 | SCF Marketplace | A non-exclusive listing of security, compliance and resilience professionals who can help an organization set up or operationalize its control set. |
@@ -1636,6 +1663,7 @@ The SCF is copyrighted material, but it leverages the **Creative Commons Attribu
 What this means in practice, for four common situations:
 
 **How the licence applies to common SCF use cases**
+
 | Situation | Permitted? |
 |---|---|
 | Downloading the SCF and implementing its controls in your own environment | Yes |
@@ -1657,6 +1685,7 @@ _45 minutes_
 The SCF does not stand alone. Knowing the family tree tells you which artifact answers which question - and prevents you from reaching for a maturity model when you needed a control catalog, or vice versa.
 
 **The three core questions the SCF family answers**
+
 | Artifact | The question it answers | What it is |
 |---|---|---|
 | SCF | What? | The control catalog - 1,591 controls across 34 domains, plus AOs, ERLs and focal documents. |
@@ -1784,6 +1813,7 @@ A control catalog tells you what good looks like. **Conformity assessment** is t
 The SCR CAP is an **organization-level** conformity assessment. It uses the SCF's metaframework nature so that one assessment can span multiple laws, regulations and frameworks at once - rather than running three separate audits against three separate control sets. The Council is explicit that this is what distinguishes the SCR CAP from single-focused certifications such as ISO 27001, CMMC or FedRAMP.
 
 **The actors in the SCR CAP**
+
 | Role | Who they are |
 |---|---|
 | OSA | Organization Seeking Assessment - the organization being assessed. |
@@ -1826,6 +1856,7 @@ Assessment findings land at two levels. First, each **Assessment Objective** is 
 There are **four** possible control-level designations:
 
 **The four control-level designations in the SCR CAP**
+
 | Designation | Polarity | Meaning |
 |---|---|---|
 | Satisfactory | Positive | All applicable AOs are Satisfactory, N/A, or a compensating control that is validated as applicable, reasonable, and implemented and operating properly. |
@@ -1865,6 +1896,7 @@ _55 minutes_
 At the assessment boundary level, the 3PAO produces a written ROC defending a single **conformity designation**. There are four, and they are separated by hard numeric thresholds on the percentage of assessed controls meeting the criteria.
 
 **The four conformity designations and their thresholds**
+
 | Designation | Threshold | Outcome |
 |---|---|---|
 | Strictly Conforms | 100% of assessed controls | Passing |
@@ -1908,6 +1940,7 @@ _50 minutes_
 Two independent axes determine the depth of an assessment: **rigor** (how deep the assessor goes) and **method** (how the evidence is obtained). The BoK is explicit that at the discretion of the OSA and by agreement of the 3PAO, any method may use any level of rigor - but it also states the prescribed pairing, and that pairing is what you will see in practice.
 
 **The prescribed rigor and method pairings**
+
 | Rigor level | Method | Basis |
 |---|---|---|
 | Standard | MPIT - Manual Point In Time | Manual evaluation at a specific point in time. |
@@ -1950,6 +1983,7 @@ The assessment boundary is the population the percentage thresholds are computed
 The USG is a free resource intended to help organizations define the scope of the sensitive and regulated data where it applies. It organizes that scope into **ten zones**.
 
 **The ten USG scoping zones**
+
 | Zone | Name | What it captures |
 |---|---|---|
 | 1 | Sensitive Data Assets (SDA) | Systems, services and applications that directly process, store or transmit sensitive/regulated data. |
@@ -1980,6 +2014,7 @@ _45 minutes_
 A SCR Certified certification runs for **three years** from the date of the ROC. The lifecycle is structured so that the burden is front-loaded, not back-loaded.
 
 **The SCR Certified three-year certification lifecycle**
+
 | Year | What is required |
 |---|---|
 | Year 1 | Ongoing due care activities to maintain conformity - ongoing maintenance, change management, managing compliance requirements. The date of the ROC starts the lifecycle. |
@@ -2014,6 +2049,7 @@ _60 minutes_
 The capstone is the culminating assessment of the course, and it is a real piece of professional work rather than a quiz. The problem statement is direct: **design and implement a control assessment for an organization.**
 
 **Capstone deliverables and weighting**
+
 | Deliverable | Format | Weight |
 |---|---|---|
 | Assessment Report | document | 50% |
@@ -2024,6 +2060,7 @@ The **Assessment Report** is your conformity assessment document. It should cont
 The evaluation rubric has a single criterion, **Accuracy**, weighted at 100%, with four levels mapped onto the mastery levels:
 
 **The capstone rubric - criterion: Accuracy**
+
 | Mastery level | Rubric level | What it means |
 |---|---|---|
 | Beginning | Errors | The assessment contains material factual errors. |
@@ -2178,37 +2215,34 @@ Estimated effort: **4 hours**. Competency: **catalog**.
 
 _40 minutes_
 
-A control catalog tells you what to do. A risk and threat catalog tells you why the control exists and what it is defending against. The SCF publishes both, and the relationship between them is what makes a control set defensible rather than a checklist.
+A control catalog tells you what to do. A risk and threat catalog tells you why the control exists and what it is defending against. The SCF publishes both.
 
-The SCF 2026.3 release catalogs **65 risks** grouped into **14 risk groupings**, and **45 threats** split into **14 natural threats** and **31 man-made threats**. These are the same risks and threats the SCF's controls are written to address, and they are the vocabulary the SCF Council uses when it explains why a control carries the weight it does.
+The SCF 2026.3 release catalogs 65 risks grouped into 14 risk groupings, and 45 threats split into 14 natural threats and 31 man-made threats.
 
-> **Source of truth**
->
-> Every figure in this module is taken from the SCF-2026.3 risk-catalog.md and threat-catalog.md sheets in the OKF bundle. The risk and threat catalogs are part of the SCF's free published material under CC BY-ND 4.0.
-
-- **65 risks** in **14 groupings**.
-- **45 threats**: 14 natural (NT-1 to NT-14) and 31 man-made (MT-1 to MT-31).
-- Each risk and threat is cross-mapped to SCF controls through the same Set Theory Relationship Mapping used for focal documents.
+- 65 risks in 14 groupings.
+- 45 threats: 14 natural (NT-1 to NT-14) and 31 man-made (MT-1 to MT-31).
+- Each risk and threat is cross-mapped to SCF controls through Set Theory Relationship Mapping.
 
 ### Key terms
 
-- **Risk grouping** - A category that collects related risks, e.g. Exposure, Governance, Supply Chain.
-- **Natural threat** - A threat arising from natural phenomena - 14 cataloged, NT-1 to NT-14.
-- **Man-made threat** - A threat arising from human action - 31 cataloged, MT-1 to MT-31.
+- **Risk grouping** - A category collecting related risks.
+- **Natural threat** - Threat from natural phenomena - 14 cataloged.
+- **Man-made threat** - Threat from human action - 31 cataloged.
 
 ## 8.2 The 14 Risk Groupings
 
 _45 minutes_
 
-The 65 risks are distributed across 14 groupings. The distribution is itself informative: Exposure and Governance dominate, which mirrors where most organizations actually lose control of their posture.
+The 65 risks are distributed across 14 groupings. Exposure and Governance dominate.
 
-**Risk distribution across the 14 groupings (65 risks total)**
+**Risk distribution across 14 groupings (65 total)**
+
 | # | Risk grouping | Risks |
 |---|---|---|
 | 1 | Exposure | 11 |
 | 2 | Governance | 10 |
 | 3 | Supply Chain | 7 |
-| 4 | Artificial Intelligence & Autonomous Technologies | 6 |
+| 4 | AAT | 6 |
 | 5 | Information Protection | 6 |
 | 6 | Access Control | 5 |
 | 7 | Business Continuity | 5 |
@@ -2220,65 +2254,53 @@ The 65 risks are distributed across 14 groupings. The distribution is itself inf
 | 13 | Operational Technology | 1 |
 | 14 | Personnel | 1 |
 
-Three observations carry into scoping work:
-
-1. **Exposure (11) is the largest grouping** - it captures the risks that come from being visible and reachable, which is where most external-facing controls earn their weight.
-2. **Governance (10) is close behind** - governance failures are the second-most-common source of material weakness, which is why GOV-domain controls carry weight 10 so often.
-3. **Supply Chain (7)** reflects the SCF Council's view that third-party risk is now a first-class concern, not an appendix to internal controls.
-
 ### Key terms
 
-- **Risk** - A potential event or condition that, if it occurs, negatively impacts an objective.
-- **Exposure** - The largest risk grouping - risks arising from being visible and reachable.
+- **Risk** - A potential event negatively impacting an objective.
 
-## 8.3 The 45 Threats: Natural and Man-Made
+## 8.3 The 45 Threats
 
 _40 minutes_
 
-The SCF catalogs 45 threats, split into two families. The split matters because the controls that address a natural threat (flood, earthquake, pandemic) are different in kind from those that address a man-made one (insider, attacker, vendor failure).
+The SCF catalogs 45 threats split into two families.
 
-**Threat families in the SCF 2026.3 catalog**
-| Family | Count | Identifier range | Examples of scope |
-|---|---|---|---|
-| Natural | 14 | NT-1 to NT-14 | Weather, geological, biological, environmental events |
-| Man-made | 31 | MT-1 to MT-31 | Insider, external attacker, vendor, process failure, error |
+**Threat families in SCF 2026.3**
 
-The man-made family is more than twice the size of the natural family, which is consistent with where most organizations' actual loss events come from. The natural family still matters because it drives the Business Continuity and Physical & Environmental Security domains, and because a control set that ignores natural threats cannot claim resilience.
+| Family | Count | Identifier range |
+|---|---|---|
+| Natural | 14 | NT-1 to NT-14 |
+| Man-made | 31 | MT-1 to MT-31 |
 
-> **Using the catalogs**
->
-> When you justify a control's inclusion to an assessor or to a board, the risk and threat catalogs are the vocabulary. 'This control addresses risk X, which is in grouping Y, and threat Z (man-made, MT-n)' is a defensible, auditable sentence.
+Man-made threats are more than twice natural. Natural threats still matter for BCD and PES domains.
 
 ### Key terms
 
-- **Natural threat** - NT-1 to NT-14 - phenomena such as weather, geology, biology.
-- **Man-made threat** - MT-1 to MT-31 - human action, error or intent.
+- **Natural threat** - NT-1 to NT-14.
+- **Man-made threat** - MT-1 to MT-31.
 
 ## 8.4 From Risk to Control: The Justification Loop
 
 _45 minutes_
 
-The reason the catalogs exist is to close the loop between a risk statement and a control. The loop has four steps and it is the same loop the SCF Council uses when it adds or renumbers controls.
+The loop that turns a tailored control set into a defensible one.
 
-1. **Name the risk** from the catalog (one of the 65, in one of the 14 groupings).
-2. **Name the threat** that realizes it (one of the 45, natural or man-made).
-3. **Find the controls** that address the risk/threat pair, using the STRM crosswalk or the domain structure of the catalog.
-4. **Record the justification** in your Living Control Set: risk, threat, control, evidence.
-
-This loop is what turns a tailored control set into a defensible one. A control that cannot be traced to a risk and a threat in the catalog is a control you are running on habit, and habit is not evidence.
+1. Name the risk from the catalog (one of 65, in one of 14 groupings).
+2. Name the threat that realizes it (one of 45).
+3. Find the controls that address the pair via STRM or domain structure.
+4. Record the justification: risk, threat, control, evidence.
 
 **The risk-to-control justification loop**
+
 | Step | Artifact | Output |
 |---|---|---|
 | 1 | Risk catalog | Named risk + grouping |
 | 2 | Threat catalog | Named threat + family |
 | 3 | Control catalog / STRM | Control identifier(s) |
-| 4 | Living Control Set (LCS) | Risk -> threat -> control -> evidence row |
+| 4 | Living Control Set | Risk -> threat -> control -> evidence row |
 
 ### Key terms
 
-- **Living Control Set (LCS)** - The tailored, maintained control set an organization actually runs.
-- **Justification** - The traceable link from a risk and threat to a control and its evidence.
+- **Justification** - Traceable link from risk and threat to control and evidence.
 
 ## Module 8 knowledge check
 
@@ -2290,10 +2312,10 @@ How many risks does the SCF 2026.3 catalog contain, and into how many groupings?
 [(X)] 65 risks in 14 groupings
 [( )] 31 risks in 14 groupings
 ***
-65 risks across 14 groupings. 45 is the threat count, not the risk count.
+65 risks across 14 groupings. 45 is the threat count.
 ***
 
-Which risk grouping is the largest in the SCF 2026.3 catalog?
+Which risk grouping is the largest?
 
 <!-- data-randomize data-max-trials="3" -->
 [( )] Governance (10)
@@ -2301,10 +2323,10 @@ Which risk grouping is the largest in the SCF 2026.3 catalog?
 [(X)] Exposure (11)
 [( )] Information Protection (6)
 ***
-Exposure has 11 risks, Governance 10, Supply Chain 7. Exposure captures risks arising from being visible and reachable.
+Exposure has 11 risks.
 ***
 
-How are the 45 cataloged threats split between natural and man-made?
+How are the 45 cataloged threats split?
 
 <!-- data-randomize data-max-trials="3" -->
 [( )] 22 natural and 23 man-made
@@ -2312,30 +2334,19 @@ How are the 45 cataloged threats split between natural and man-made?
 [( )] 31 natural and 14 man-made
 [( )] 14 natural and 14 man-made
 ***
-14 natural threats (NT-1..NT-14) and 31 man-made threats (MT-1..MT-31). Man-made threats are more than twice as numerous, which matches where most loss events originate.
+14 natural, 31 man-made.
 ***
 
 Which statements about the risk and threat catalogs are correct?
 
 <!-- data-randomize data-max-trials="3" -->
 [[X]] They are part of the free SCF 2026.3 published material
-[[X]] They are cross-mapped to SCF controls using Set Theory Relationship Mapping
+[[X]] They are cross-mapped to SCF controls using STRM
 [[X]] They provide the vocabulary for justifying a control's inclusion
-[[ ]] They are only available to organizations paying for an SCF subscription
+[[ ]] They are only available via subscription
 [[ ]] They replace the need for a separate risk assessment
 ***
-The catalogs are free, CC BY-ND 4.0 published material, cross-mapped via STRM. They support but do not replace an organization's own risk assessment.
-***
-
-An organization wants to justify running a control that is not driven by any external obligation. Which catalog best supports that justification?
-
-<!-- data-randomize data-max-trials="3" -->
-[( )] The Focal Document index
-[(X)] The risk and threat catalogs
-[( )] The Evidence Request List
-[( )] The STRM document for that control
-***
-DSR controls are justified by internal risk appetite, and the risk/threat catalogs are the vocabulary for that justification. Focal documents and STRMs support MCR, not DSR.
+Free, CC BY-ND 4.0, cross-mapped via STRM. They support but don't replace risk assessment.
 ***
 
 Which risk grouping contains exactly one risk?
@@ -2346,7 +2357,18 @@ Which risk grouping contains exactly one risk?
 [(X)] Operational Technology (and Personnel)
 [( )] Safety
 ***
-Two groupings contain a single risk: Operational Technology (1) and Personnel (1). Safety has 2, Situational Awareness has 2, Operational Resilience has 2.
+Two groupings have a single risk: Operational Technology and Personnel.
+***
+
+An organization wants to justify a control not driven by external obligation. Which catalog supports this?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] The Focal Document index
+[(X)] The risk and threat catalogs
+[( )] The Evidence Request List
+[( )] The STRM document
+***
+DSR controls are justified by internal risk appetite. Risk/threat catalogs are the vocabulary.
 ***
 
 # Module 9 - Assessment Practice & the Capstone
@@ -2369,28 +2391,30 @@ Estimated effort: **5 hours**. Competency: **documents**.
 
 _45 minutes_
 
-Two different designation systems are used in a conformity assessment, and confusing them is the most common source of misreported results. **Control-level** designations describe a single control. **Conformity-level** designations describe the whole assessment.
+Two designation systems: control-level (single control) and conformity-level (whole assessment).
 
 **The two designation systems**
+
 | Level | Designations | What it describes |
 |---|---|---|
 | Control | Satisfactory / Deficient / Compensating Control / N/A | Whether one control's AOs are met. |
-| Conformity | Strictly Conforms / Conforms / Significant Deficiency / Material Weakness | The percentage of controls that meet the criteria. |
+| Conformity | Strictly Conforms / Conforms / Significant Deficiency / Material Weakness | Percentage of controls meeting criteria. |
 
-A control is **Satisfactory** only if every applicable Assessment Objective is Satisfactory, Compensating Control or N/A. A single Deficient AO makes the whole control Deficient. The conformity designation is then computed from the count of Satisfactory controls.
+A control is Satisfactory only if every applicable AO is Satisfactory, Compensating Control, or N/A.
 
 ### Key terms
 
-- **Control-level designation** - Satisfactory / Deficient / Compensating Control / N/A for one control.
-- **Conformity-level designation** - Strictly Conforms / Conforms / Significant Deficiency / Material Weakness for the whole assessment.
+- **Control-level designation** - Satisfactory/Deficient/Compensating/N/A for one control.
+- **Conformity-level designation** - Strictly Conforms/Conforms/Sig Def/Material Weakness for the whole assessment.
 
 ## 9.2 Conformity Thresholds
 
 _40 minutes_
 
-The four conformity designations are defined by the percentage of assessed controls that meet the conformity criteria. The thresholds are fixed and published in the CAP body of knowledge.
+Four conformity designations defined by percentage of assessed controls meeting criteria.
 
-**Conformity designations and their thresholds**
+**Conformity designations and thresholds**
+
 | Designation | Threshold | Meaning |
 |---|---|---|
 | Strictly Conforms | 100% | Every assessed control meets the criteria. |
@@ -2398,131 +2422,117 @@ The four conformity designations are defined by the percentage of assessed contr
 | Significant Deficiency | >= 70% and < 80% | A material gap requiring remediation. |
 | Material Weakness | < 70% | A serious failure of the control environment. |
 
-> **Reporting consequence**
->
-> A Significant Deficiency or Material Weakness designation is not a private finding. It is reported to the OSA and, depending on the SCR CAP terms, may be reportable to regulators or to the OSA's customers under contractual obligations.
-
 ### Key terms
 
-- **OSA** - Organization Seeking Assessment - the entity being assessed.
-- **Material Weakness** - A conformity designation below 70% of assessed controls meeting criteria.
+- **Material Weakness** - A conformity designation below 70%.
 
 ## 9.3 Assessment Rigor and Methods
 
 _50 minutes_
 
-Every assessment has two independent dimensions: **rigor** (how deep) and **method** (how evidence is gathered). Any method can be used with any rigor; the published pairings are guidance, not constraints.
+Two independent dimensions: rigor (how deep) and method (how evidence is gathered).
 
 **Assessment rigor levels**
+
 | Rigor | Depth | Typical use |
 |---|---|---|
-| Standard | Baseline testing of the control | Routine surveillance assessments. |
-| Enhanced | Deeper testing with more evidence | Higher-risk controls or new implementations. |
-| Comprehensive | Continuous, automated, human-reviewed | Critical / material controls. |
+| Standard | Baseline testing | Routine surveillance assessments. |
+| Enhanced | Deeper testing with more evidence | Higher-risk controls. |
+| Comprehensive | Continuous, automated, human-reviewed | Critical/material controls. |
 
-**Assessment methods and their character**
-| Method | Abbreviation | Character | Typical rigor pairing |
+**Assessment methods**
+
+| Method | Abbrev | Character | Typical pairing |
 |---|---|---|---|
 | Manual Performance of Independent Testing | MPIT | Point-in-time human testing | Standard or Enhanced |
 | Automated Performance of Independent Testing | APIT | Automated testing at a point in time | Standard or Enhanced |
-| Automated Evidence with Human Review | AEHR | Continuous automated with recurring human review | Comprehensive |
-
-The practical consequence: an assessor can run a Comprehensive assessment using MPIT if the circumstances warrant it, and the BoK does not prohibit it. The pairing table is guidance for planning, not a rule.
+| Automated Evidence with Human Review | AEHR | Continuous automated with human review | Comprehensive |
+| Continuous Independent Conformity Assessment | CICA | Incremental on automated evidence | Any |
 
 ### Key terms
 
-- **MPIT** - Manual Performance of Independent Testing - point-in-time human testing.
-- **APIT** - Automated Performance of Independent Testing - automated testing at a point in time.
-- **AEHR** - Automated Evidence with Human Review - continuous automated with recurring human review.
-- **CICA** - Continuous Independent Conformity Assessment - incremental assessment built on automated evidence.
+- **MPIT** - Manual point-in-time testing.
+- **APIT** - Automated point-in-time testing.
+- **AEHR** - Continuous automated with human review.
+- **CICA** - Incremental on automated evidence.
 
 ## 9.4 Re-evaluation and Compensating Controls
 
 _45 minutes_
 
-Two mechanisms keep an assessment honest after the first pass: the **re-evaluation window** and **compensating controls**.
+Two mechanisms keep an assessment honest: the re-evaluation window and compensating controls.
 
 > **Re-evaluation window**
 >
-> A control designated Deficient can be re-evaluated with additional evidence during the assessment and for up to ten business days following the active assessment period - and only while the Report of Conformity (ROC) has not yet been delivered to the OSA. After delivery, the designation stands.
+> A Deficient control can be re-evaluated with additional evidence during the assessment and for up to 10 business days after - only while ROC not yet delivered.
 
-A **compensating control** is an alternative control implemented in lieu of the deficient one that provides equivalent or comparable protection. Three conditions must hold:
-
-- It is **applicable** to the deficiency.
-- It is **reasonable** in the circumstances.
-- It is **implemented and operating properly** - not merely planned.
-
-A deficient control cannot itself be used as a compensating control, and there is no cross-domain requirement. For a material control, a compensating control must be validated by the assessor and cannot simply be asserted by the organization.
+A compensating control must be: applicable, reasonable, and implemented and operating properly.
 
 ### Key terms
 
-- **Re-evaluation window** - During the assessment plus up to 10 business days after, before ROC delivery.
-- **Compensating control** - An alternative control providing equivalent or comparable protection.
-- **ROC** - Report of Conformity - the deliverable of a conformity assessment.
+- **Re-evaluation window** - During assessment + up to 10 business days, before ROC delivery.
+- **Compensating control** - Alternative providing equivalent/comparable protection.
 
 ## 9.5 The Three-Year Certification Lifecycle
 
 _40 minutes_
 
-An SCR CAP certification runs on a three-year cycle. The cycle exists to balance assurance depth with cost: a full assessment in year one, lighter checks in years two and three, then re-assessment.
+An SCR CAP certification runs on a three-year cycle.
 
-**The three-year certification lifecycle**
+**Three-year certification lifecycle**
+
 | Year | Activity | Deadline |
 |---|---|---|
-| Year 1 | Full conformity assessment, Report of Conformity issued | Assessment start |
-| Year 2 | Self-attestation by the OSA | First anniversary of assessment start |
-| Year 3 | Self-attestation by the OSA | Second anniversary of assessment start |
-| End of Year 3 | Certification expires | End of the third year |
-
-The self-attestations in years two and three are not free passes: they are signed statements by the OSA that the control environment has not materially degraded since the last assessment. A material change in the environment during the cycle is what triggers an out-of-cycle re-assessment.
+| Year 1 | Full conformity assessment, ROC issued | Assessment start |
+| Year 2 | Self-attestation by OSA | First anniversary |
+| Year 3 | Self-attestation by OSA | Second anniversary |
+| End of Year 3 | Certification expires | End of third year |
 
 ### Key terms
 
-- **Self-attestation** - A signed statement by the OSA that the control environment has not materially degraded.
-- **Out-of-cycle re-assessment** - A re-assessment triggered by a material change during the cycle.
+- **Self-attestation** - Signed statement by OSA that control environment has not degraded.
 
 ## 9.6 Your Capstone
 
 _60 minutes_
 
-The capstone is the graded instrument for this course. It has two deliverables, weighted equally, plus a defense presentation and peer review.
+The capstone has two deliverables weighted equally, plus defense and peer review.
 
 **Capstone deliverables**
+
 | Deliverable | Format | Weight |
 |---|---|---|
 | Assessment Report | Document | 50% |
-| Control Matrix | Code / spreadsheet | 50% |
+| Control Matrix | Spreadsheet/code | 50% |
 
-- **Defense presentation**: 15 minutes to a panel of three assessors.
-- **Peer review**: minimum of two reviewers per submission.
-- **Rubric**: a single criterion, Accuracy, scored on four levels - Errors, Partial, Good, Excellent - at 100% weight.
-- **Mastery threshold**: 70%.
+- Defense presentation: 15 minutes to a panel of three.
+- Peer review: minimum two reviewers.
+- Rubric: Accuracy (Errors/Partial/Good/Excellent) at 100% weight.
+- Mastery threshold: 70%.
 
-The capstone is assessed at the course level, not per module. It is the instrument that turns the seven modules of theory into a demonstrated capability, and it is what the certification record attaches to.
-
-> **Evaluation framework reminder**
+> **Evaluation framework**
 >
-> The course evaluation framework weights three components: Formative 30% (threshold 60), Summative 40% (threshold 70), Capstone 30% (threshold 70). Retakes are allowed, with a maximum of three attempts.
+> Formative 30% (threshold 60), Summative 40% (threshold 70), Capstone 30% (threshold 70). Retakes allowed, max 3 attempts.
 
 ### Key terms
 
-- **Capstone** - The graded end-of-course project: Assessment Report + Control Matrix + defense.
-- **Peer review** - Review by a minimum of two peers, required for capstone submission.
+- **Capstone** - The graded end-of-course project.
+- **Peer review** - Review by min 2 peers.
 
 ## Module 9 knowledge check
 
-A control has three applicable Assessment Objectives: one Satisfactory, one Compensating Control, and one Deficient. What is the control-level designation?
+A control has 3 applicable AOs: Satisfactory, Compensating, Deficient. Designation?
 
 <!-- data-randomize data-max-trials="3" -->
 [( )] Satisfactory
 [( )] Compensating Control
 [(X)] Deficient
-[( )] Not Applicable
+[( )] N/A
 ***
-A control is Satisfactory only if every applicable AO is Satisfactory, Compensating Control or N/A. A single Deficient AO makes the whole control Deficient.
+A single Deficient AO makes the whole control Deficient.
 ***
 
-An assessment finds that 78% of assessed controls meet the conformity criteria. What is the conformity designation?
+78% of controls meet criteria. Conformity designation?
 
 <!-- data-randomize data-max-trials="3" -->
 [( )] Strictly Conforms
@@ -2530,22 +2540,22 @@ An assessment finds that 78% of assessed controls meet the conformity criteria. 
 [(X)] Significant Deficiency
 [( )] Material Weakness
 ***
-Significant Deficiency covers at least 70% but less than 80%. 78% falls in that band.
+Significant Deficiency = 70-<80%. 78% falls in that band.
 ***
 
-Which statements about a compensating control are correct?
+Which statements about compensating controls are correct?
 
 <!-- data-randomize data-max-trials="3" -->
-[[X]] It must be validated as applicable, reasonable, and implemented and operating properly
-[[X]] It cannot itself be a deficient control
-[[X]] It provides equivalent or comparable protection to the deficient control
-[[ ]] It removes the requirement to test the underlying control's AOs
-[[ ]] It must be a control from a different SCF domain
+[[X]] Must be applicable, reasonable, and implemented/operating
+[[X]] Cannot be a deficient control
+[[X]] Provides equivalent/comparable protection
+[[ ]] Removes requirement to test underlying AOs
+[[ ]] Must be from different domain
 ***
-The three validation conditions and the equivalent-or-comparable protection test come from the BoK. A deficient control cannot compensate, and there is no cross-domain requirement.
+Three validation conditions from the BoK.
 ***
 
-Which assessment method is characterized by continuous evaluation with recurring human review validating automated results?
+Which method is continuous with recurring human review?
 
 <!-- data-randomize data-max-trials="3" -->
 [( )] MPIT
@@ -2553,31 +2563,31 @@ Which assessment method is characterized by continuous evaluation with recurring
 [(X)] AEHR
 [( )] CICA
 ***
-AEHR - Automated Evidence with Human Review - is the continuous method and pairs with Comprehensive rigor. CICA is the incremental cadence built on automated evidence, not a method.
+AEHR pairs with Comprehensive rigor.
 ***
 
-What is the deadline for re-evaluating a control designated Deficient with additional evidence?
-
-<!-- data-randomize data-max-trials="3" -->
-[( )] Any time before the ROC is published
-[( )] Within 30 business days of the assessment
-[(X)] During the assessment and for up to ten business days after the active assessment period
-[( )] There is no re-evaluation window
-***
-The window is during the assessment and up to ten business days after - and only while the ROC has not yet been delivered to the OSA.
-***
-
-Which are the capstone's deliverables and requirements?
+Deadline for re-evaluating a Deficient control?
 
 <!-- data-randomize data-max-trials="3" -->
-[[X]] An Assessment Report worth 50%
-[[X]] A Control Matrix worth 50%
-[[X]] A 15-minute defense presentation to a panel of three
-[[X]] Peer review by a minimum of two reviewers
-[[ ]] A published tool conforming to the SCF's CC BY-ND 4.0 restriction
-[[ ]] A 40-page written examination
+[( )] Any time before ROC published
+[( )] Within 30 business days
+[(X)] During assessment + up to 10 business days after
+[( )] No re-evaluation window
 ***
-The two deliverables carry 50% each, and the defense and peer review are both required. The CC BY-ND restriction is a licence constraint on SCF content, not a grading instrument.
+Window closes when ROC delivered to OSA.
+***
+
+Capstone deliverables and requirements?
+
+<!-- data-randomize data-max-trials="3" -->
+[[X]] Assessment Report 50%
+[[X]] Control Matrix 50%
+[[X]] 15-min defense to panel of 3
+[[X]] Peer review min 2 reviewers
+[[ ]] Published tool per CC BY-ND
+[[ ]] 40-page written exam
+***
+Two deliverables 50% each, defense and peer review required.
 ***
 
 # Module 10 - Audit, Evidence & Capstone Execution
@@ -2600,31 +2610,32 @@ Estimated effort: **4 hours**. Competency: **documents, sheets**.
 
 _40 minutes_
 
-The SCF lifecycle runs from source frameworks to certified mastery. Eight phases, each with its own artifacts, identifiers and audit checkpoints.
+The SCF lifecycle runs from source frameworks to certified mastery.
 
 **The eight-phase SCF lifecycle**
+
 | Phase | Name | Key artifacts | Audit tag |
 |---|---|---|---|
 | 0 | Source frameworks | Focal Documents (270), STRM crosswalks | [FD-<FDI>] |
 | 1 | Control catalog | 1,591 controls, 34 domains, SCR-CMM L0-L5 | [CTL-<ID>] |
-| 2 | Tailoring | Living Control Set (MCR/DSR), compensating controls | [LCS], [TAILOR] |
-| 3 | Scoping | USG zones 1-10, assessment boundary | [ZONE-<n>] |
-| 4 | Assessment objectives | 6,446 AOs, SDP, PPTDF, rigor | [AO-<ID>] |
-| 5 | Evidence | 422 ERLs, 30 areas of focus, collection methods | [ERL-<n>] |
+| 2 | Tailoring | Living Control Set (MCR/DSR) | [LCS], [TAILOR] |
+| 3 | Scoping | USG zones 1-10 | [ZONE-<n>] |
+| 4 | Assessment objectives | 6,446 AOs, SDP, rigor | [AO-<ID>] |
+| 5 | Evidence | 422 ERLs, 30 areas of focus | [ERL-<n>] |
 | 6 | Risk & threat | 65 risks, 14 groupings, 45 threats | [RISK-<id>], [THR-<id>] |
-| 7 | Assessment execution | Control/conformity designations, ROC, certification | [CTL-DESIG], [CONF-DESIG] |
-| 8 | Capstone & mastery | Assessment Report, Control Matrix, defense, peer review | [CAP-REPORT], [CAP-MATRIX] |
+| 7 | Assessment execution | Designations, ROC, certification | [CTL-DESIG], [CONF-DESIG] |
+| 8 | Capstone & mastery | Assessment Report, Control Matrix, defense | [CAP-REPORT], [CAP-MATRIX] |
 
 ### Key terms
 
-- **Lifecycle phase** - One of eight phases from source frameworks to certified mastery.
+- **Lifecycle phase** - One of eight phases from source frameworks to mastery.
 - **Audit tag** - Standardized tag for tagging evidence and observations.
 
 ## 10.2 Audit Observation Tagging Convention
 
 _45 minutes_
 
-Every audit finding is tagged with a standard structure so findings are traceable, comparable and reportable. The convention covers the full lifecycle.
+Every audit finding is tagged with a standard structure for traceability.
 
 ```text
 [AUDIT-OBSERVATION]
@@ -2638,67 +2649,53 @@ Every audit finding is tagged with a standard structure so findings are traceabl
   Gap/Remediation:  <action required>
 ```
 
-Example: a governance policy reviewed only in 2025 would be tagged as a Deficient control with a remediation to complete the annual review before ROC delivery.
-
 > **Disposition codes**
 >
-> P = Pass (Satisfactory), F = Fail (Deficient), CC = Compensating Control, NA = Not Applicable, PND = Pending evidence.
+> P = Pass, F = Fail, CC = Compensating Control, NA = Not Applicable, PND = Pending.
 
 ### Key terms
 
-- **Disposition** - P (Pass), F (Fail), CC (Compensating Control), NA (Not Applicable), PND (Pending).
-- **ROC** - Report of Conformity - the deliverable of a conformity assessment.
+- **Disposition** - P/F/CC/NA/PND.
+- **ROC** - Report of Conformity.
 
 ## 10.3 Conformity Assessment Execution
 
 _50 minutes_
 
-The SCR CAP assessment runs in a fixed sequence. Each step produces a deliverable that feeds the next.
+The SCR CAP assessment runs in a fixed sequence.
 
-1. **Scoping** - define the assessment boundary using the USG (zones 1-10).
-2. **Control selection** - identify in-scope controls from the tailored Living Control Set.
-3. **AO review** - pull AOs for each in-scope control; note the SDP minimums.
-4. **Evidence collection** - request artifacts per the ERL; record collection method.
-5. **Testing** - MPIT/APIT/AEHR at Standard/Enhanced/Comprehensive rigor.
-6. **Control designation** - Satisfactory / Deficient / Compensating / N/A per control.
-7. **Conformity designation** - Strictly Conforms / Conforms / Significant Deficiency / Material Weakness.
-8. **ROC delivery** - Report of Conformity issued to the OSA.
-9. **Certification** - three-year cycle: Year 1 full, Year 2 self-attest, Year 3 self-attest.
-
-**Assessment execution sequence**
-| Step | Output | Disposition if failed |
-|---|---|---|
-| Scoping | Assessment boundary document | Re-scope and re-submit |
-| Control selection | In-scope control list | Re-tailor the LCS |
-| AO review | AO test plan | Re-scope AOs |
-| Evidence collection | Evidence package | Request missing evidence |
-| Testing | Test results | Re-test or re-designate |
-| Control designation | Control-level designations | Re-designate |
-| Conformity designation | Conformity-level designation | Remediate and re-assess |
-| ROC delivery | Report of Conformity | Re-issue after remediation |
-| Certification | Certificate issued | Re-assess in full |
+1. Scoping - define boundary using USG (zones 1-10).
+2. Control selection - identify in-scope controls from tailored LCS.
+3. AO review - pull AOs; note SDP minimums.
+4. Evidence collection - request artifacts per ERL; record method.
+5. Testing - MPIT/APIT/AEHR at Standard/Enhanced/Comprehensive rigor.
+6. Control designation - Satisfactory/Deficient/Compensating/N/A per control.
+7. Conformity designation - Strictly Conforms/Conforms/Sig Def/Material Weakness.
+8. ROC delivery - Report of Conformity issued to OSA.
+9. Certification - 3-year cycle: Year 1 full, Year 2 self-attest, Year 3 self-attest.
 
 ### Key terms
 
 - **OSA** - Organization Seeking Assessment.
-- **CAB** - Conformity Assessment Body - the accredited assessor organization.
+- **CAB** - Conformity Assessment Body.
 
 ## 10.4 Capstone: Assessment Report & Control Matrix
 
 _60 minutes_
 
-The capstone has two deliverables weighted equally, plus a defense and peer review. It is the graded instrument that turns theory into demonstrated capability.
+The capstone has two deliverables weighted equally, plus defense and peer review.
 
 **Capstone deliverables**
+
 | Deliverable | Format | Weight | Key content |
 |---|---|---|---|
 | Assessment Report | Document | 50% | Scope, methodology, findings, designations, recommendations |
 | Control Matrix | Spreadsheet/code | 50% | Control-to-evidence mapping, AO results, dispositions |
 
-- **Defense presentation**: 15 minutes to a panel of three assessors.
-- **Peer review**: minimum of two reviewers per submission.
-- **Rubric**: Accuracy, scored on four levels - Errors, Partial, Good, Excellent (100% weight).
-- **Mastery threshold**: 70%.
+- Defense: 15 minutes to panel of 3.
+- Peer review: min 2 reviewers.
+- Rubric: Accuracy (Errors/Partial/Good/Excellent) at 100% weight.
+- Mastery threshold: 70%.
 
 > **Evaluation framework**
 >
@@ -2707,11 +2704,65 @@ The capstone has two deliverables weighted equally, plus a defense and peer revi
 ### Key terms
 
 - **Capstone** - The graded end-of-course project.
-- **Peer review** - Review by minimum two peers, required for submission.
+- **Peer review** - Review by min 2 peers.
+
+## 10.5 Capstone Examples: Student Submissions
+
+_30 minutes_
+
+Anonymized examples from a cohort of ten students who completed the capstone.
+
+**Sample capstone cohort (10 students)**
+
+| Student | Assessment Report | Control Matrix | Overall | Result |
+|---|---|---|---|---|
+| Alice Chen | 92 | 88 | 90 | Pass |
+| Bob Martinez | 78 | 72 | 75 | Pass |
+| Carol Johnson | 95 | 91 | 93 | Pass |
+| David Park | 68 | 62 | 65 | Fail |
+| Eve Williams | 85 | 80 | 82.5 | Pass |
+| Frank Lee | 60 | 55 | 57.5 | Fail |
+| Grace Kim | 88 | 84 | 86 | Pass |
+| Henry Brown | 72 | 68 | 70 | Pass |
+| Ivy Taylor | 90 | 86 | 88 | Pass |
+| Jack Wilson | 65 | 60 | 62.5 | Fail |
+
+Three patterns emerged:
+
+1. High performers (Alice, Carol, Ivy, Grace) scored above 85 on both. Their reports clearly mapped each control to evidence; their matrices included AO-to-evidence traceability.
+2. Borderline passes (Bob, Eve, Henry) scored 70-85. Common gap: Control Matrix listed controls but omitted reciprocal AO references.
+3. Failures (David, Frank, Jack) scored below 70. Root causes: (1) reports describing controls without citing evidence, (2) matrices including controls outside the assessment boundary.
+
+**Sample peer review scores**
+
+| Submission | Reviewer 1 | Reviewer 2 | Avg Peer Score |
+|---|---|---|---|
+| Alice Chen | 92 | 88 | 90 |
+| Carol Johnson | 94 | 90 | 92 |
+| David Park | 65 | 60 | 62.5 |
+| Jack Wilson | 58 | 55 | 56.5 |
+
+**Sample defense presentation scores (panel of 3)**
+
+| Submission | Panel 1 | Panel 2 | Panel 3 | Avg Defense |
+|---|---|---|---|---|
+| Alice Chen | 95 | 92 | 90 | 92.3 |
+| Carol Johnson | 96 | 94 | 92 | 94 |
+| David Park | 68 | 65 | 62 | 65 |
+| Jack Wilson | 60 | 58 | 55 | 57.7 |
+
+> **Learning from failure**
+>
+> The most common capstone failure is not lack of knowledge but lack of traceability. An Assessment Report that says 'GOV-01 is implemented' without citing the evidence artifact, the AO it satisfies, and the collection method is a report an assessor cannot verify.
+
+### Key terms
+
+- **Traceability** - The ability to trace a control claim to its evidence, AO and collection method.
+- **Peer review** - Review by min 2 peers, required for submission.
 
 ## Module 10 knowledge check
 
-How many phases does the SCF lifecycle have, from source frameworks to capstone mastery?
+How many phases does the SCF lifecycle have?
 
 <!-- data-randomize data-max-trials="3" -->
 [( )] 5
@@ -2719,7 +2770,7 @@ How many phases does the SCF lifecycle have, from source frameworks to capstone 
 [(X)] 9 (phases 0-8)
 [( )] 12
 ***
-Eight phases numbered 0-8: source frameworks, control catalog, tailoring, scoping, assessment objectives, evidence, risk/threat, assessment execution, capstone/mastery.
+Eight phases numbered 0-8.
 ***
 
 Which disposition code indicates a compensating control was accepted?
@@ -2730,34 +2781,34 @@ Which disposition code indicates a compensating control was accepted?
 [(X)] CC
 [( )] NA
 ***
-P = Pass, F = Fail, CC = Compensating Control accepted, NA = Not Applicable, PND = Pending.
+P=Pass, F=Fail, CC=Compensating Control, NA=Not Applicable, PND=Pending.
 ***
 
 Which are the capstone deliverables and requirements?
 
 <!-- data-randomize data-max-trials="3" -->
-[[X]] Assessment Report worth 50%
-[[X]] Control Matrix worth 50%
-[[X]] 15-minute defense to a panel of three
-[[X]] Peer review by minimum two reviewers
-[[ ]] A published tool conforming to CC BY-ND 4.0
-[[ ]] A 40-page written examination
+[[X]] Assessment Report 50%
+[[X]] Control Matrix 50%
+[[X]] 15-min defense to panel of 3
+[[X]] Peer review min 2 reviewers
+[[ ]] Published tool per CC BY-ND
+[[ ]] 40-page written exam
 ***
-Two deliverables at 50% each, plus defense and peer review. CC BY-ND is a licence constraint, not a grading instrument.
+Two deliverables 50% each, defense and peer review required.
 ***
 
-In which order does the conformity assessment execution proceed?
+In which order does the conformity assessment execute?
 
 <!-- data-randomize data-max-trials="3" -->
-[( )] Evidence collection -> scoping -> testing -> ROC
-[(X)] Scoping -> control selection -> AO review -> evidence collection -> testing -> designation -> ROC -> certification
+[( )] Evidence -> scoping -> testing -> ROC
+[(X)] Scoping -> control selection -> AO review -> evidence -> testing -> designation -> ROC -> certification
 [( )] Testing -> scoping -> evidence -> designation
 [( )] Certification -> ROC -> testing -> scoping
 ***
-Scoping comes first (USG zones), then control selection, AO review, evidence collection, testing, designation, ROC delivery, and finally certification.
+Scoping comes first (USG zones).
 ***
 
-What is the conformity designation for an assessment where 75% of controls meet the criteria?
+Conformity designation for 75% of controls meeting criteria?
 
 <!-- data-randomize data-max-trials="3" -->
 [( )] Conforms
@@ -2765,16 +2816,16 @@ What is the conformity designation for an assessment where 75% of controls meet 
 [( )] Material Weakness
 [( )] Strictly Conforms
 ***
-Significant Deficiency = at least 70% but less than 80%. 75% falls in that band.
+Significant Deficiency = 70-<80%.
 ***
 
-What is the re-evaluation window for a Deficient control?
+Re-evaluation window for a Deficient control?
 
 <!-- data-randomize data-max-trials="3" -->
-[( )] Any time before the ROC is published
+[( )] Any time before ROC published
 [( )] Within 30 business days
-[(X)] During the assessment and up to 10 business days after the active assessment period
-[( )] There is no re-evaluation window
+[(X)] During assessment + up to 10 business days after
+[( )] No re-evaluation window
 ***
-The window closes when the ROC is delivered to the OSA.
+Window closes when ROC delivered to OSA.
 ***

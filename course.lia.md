@@ -5,26 +5,23 @@ version: 2026.3.0
 language: en
 narrator: US English Female
 
-comment: SCF-2026.3 Secure Controls Framework - a 40-hour course on the SCF control
-catalog, focal documents, assessment objectives, evidence requests, version change
-management, the SCF web ecosystem, and conformity assessment. Every figure is sourced
-from the SCF-2026.3 OKF bundle.
+comment: SCF-2026.3 Secure Controls Framework (Expanded Edition) - 9 modules,
+40+ hours, built from the SCF-2026.3 OKF bundle.
 -->
+# SCF-2026.3 Secure Controls Framework (Expanded Edition)
 
-# SCF-2026.3 Secure Controls Framework
+This course teaches the Secure Controls Framework (SCF) as published in the **2026.3** release, in an expanded edition that adds two modules beyond the base seven: the risk and threat catalogs, and assessment practice with the capstone. The SCF is a metaframework: a single control catalog that maps hundreds of laws, regulations and frameworks onto one common control language.
 
-This course teaches the Secure Controls Framework (SCF) as published in the **2026.3** release. The SCF is a metaframework: a single control catalog that maps hundreds of laws, regulations and frameworks onto one common control language, with the maturity model criteria, evidence requests, assessment objectives, and risk and threat catalogs needed to actually operate it.
-
-The course is built strictly from the SCF-2026.3 source bundle. Figures quoted throughout - catalog counts, objective counts, evidence request counts, errata tallies - are the published values, not estimates.
+The course is built strictly from the SCF-2026.3 source bundle. Figures quoted throughout are the published values, not estimates.
 
 ## Course at a glance
 
 |  |  |
 |---|---|
-| Modules | 7 |
-| Lessons | 41 |
-| Knowledge checks | 42 |
-| Estimated effort | 40 hours |
+| Modules | 9 |
+| Lessons | 51 |
+| Knowledge checks | 54 |
+| Estimated effort | 49 hours |
 | Release | SCF 2026.3 |
 | Format | LiAScript (offline-capable, self-assessing) |
 
@@ -38,19 +35,13 @@ The course is built strictly from the SCF-2026.3 source bundle. Figures quoted t
 | 4 | Assessment Objectives & Evidence Requests | sheets | 6 |
 | 5 | Versions & Change Management | versions | 5 |
 | 6 | The SCF Web Ecosystem | web | 5 |
-| 7 | Conformity Assessment & Capstone | catalog, documents, sheets, versions, web | 7 |
+| 7 | Conformity Assessment & Capstone | documents | 7 |
+| 8 | Risk & Threat Catalogs | catalog | 4 |
+| 9 | Assessment Practice & the Capstone | documents | 5 |
 
 ## How each module is built
 
-Every module opens with its learning objectives, then works through its lessons, then closes with a six-question knowledge check. The knowledge check is self-assessing: read the explanation under each question after you answer it. The graded instrument for the course is administered separately - see the assessment framework in the SCORM and LearnHouse deliveries of this same content.
-
-## Conventions used here
-
-- Control identifiers are written as `DOMAIN-NN` for top-level controls and `DOMAIN-NN.N` for subcontrols.
-
-- **Prevent**, **Prove** and **Survive** are the three goals of the Secure Controls Framework; the SCF catalogue supports all three.
-
-- Where a number is quoted, it is the number published in the 2026.3 source bundle unless the text says otherwise.
+Every module opens with its learning objectives, then works through its lessons, then closes with a six-question knowledge check. The knowledge check is self-assessing.
 
 # Module 1 - Orientation & the SCR Model
 
@@ -323,8 +314,6 @@ Retakes are allowed with a maximum of three attempts. The seven modules of this 
 - **Formative / Summative** - Low-stakes practice assessment vs. a graded end-of-course exam.
 
 ## Module 1 knowledge check
-
-Six questions. Answer before reading the explanation. Your answers are not recorded by the LiAScript file - the graded instrument is administered by the LMS.
 
 The SCF describes itself as a metaframework. What does that mean in practice?
 
@@ -602,8 +591,6 @@ The model nests two concerns: **maturity** (governance) and **assurance** (secur
 
 ## Module 2 knowledge check
 
-Six questions. Answer before reading the explanation. Your answers are not recorded by the LiAScript file - the graded instrument is administered by the LMS.
-
 How many controls does the SCF 2026.3 catalog contain, and how do they break down?
 
 <!-- data-randomize data-max-trials="3" -->
@@ -837,8 +824,6 @@ The step most often skipped is step 5. Selecting a control without its AOs gives
 - **Legacy identifier** - The pre-2026.3 control number, retained for crosswalk continuity.
 
 ## Module 3 knowledge check
-
-Six questions. Answer before reading the explanation. Your answers are not recorded by the LiAScript file - the graded instrument is administered by the LMS.
 
 How many focal documents does the SCF 2026.3 release index?
 
@@ -1117,8 +1102,6 @@ The last step is where the effort compounds. Once the ERL-to-AO mapping is expli
 - **Collection method** - How an artifact is gathered: interview, examine, test, or automated collection.
 
 ## Module 4 knowledge check
-
-Six questions. Answer before reading the explanation. Your answers are not recorded by the LiAScript file - the graded instrument is administered by the LMS.
 
 How many Assessment Objectives does SCF 2026.3 define?
 
@@ -1416,8 +1399,6 @@ Step 5 is the step that scales. Every organization that maintains its own NIST-t
 
 ## Module 5 knowledge check
 
-Six questions. Answer before reading the explanation. Your answers are not recorded by the LiAScript file - the graded instrument is administered by the LMS.
-
 What is the general release cadence of the Secure Controls Framework?
 
 <!-- data-randomize data-max-trials="3" -->
@@ -1708,8 +1689,6 @@ The same cycle appears in the maturity model, in the CAP's three-year certificat
 
 ## Module 6 knowledge check
 
-Six questions. Answer before reading the explanation. Your answers are not recorded by the LiAScript file - the graded instrument is administered by the LMS.
-
 How many Set Theory Relationship Mapping (STRM) documents are in the SCF 2026.3 bundle?
 
 <!-- data-randomize data-max-trials="3" -->
@@ -1779,7 +1758,7 @@ Four: SCR Practitioner, SCR Architect, SCR Assessor and SCR Trainer (the last ex
 
 # Module 7 - Conformity Assessment & Capstone
 
-Estimated effort: **7 hours**. Competency: **catalog, documents, sheets, versions, web**.
+Estimated effort: **7 hours**. Competency: **documents**.
 
 ## Learning objectives
 
@@ -2109,8 +2088,6 @@ This session is working time with the rubric in front of you. Use it to close th
 
 ## Module 7 knowledge check
 
-Six questions. Answer before reading the explanation. Your answers are not recorded by the LiAScript file - the graded instrument is administered by the LMS.
-
 A control has three applicable Assessment Objectives. One is Satisfactory, one is Compensating Control, and one is Deficient. What is the control-level designation?
 
 <!-- data-randomize data-max-trials="3" -->
@@ -2178,4 +2155,426 @@ Which are the capstone's deliverables and requirements?
 [[ ]] A 40-page written examination
 ***
 The two deliverables carry 50% each, and the defense and peer review are both required. The scoring is done by your peers and the panel, not by a published tool - and the CC BY-ND restriction is a licence constraint on the SCF content, not a grading instrument.
+***
+
+# Module 8 - Risk & Threat Catalogs
+
+Estimated effort: **4 hours**. Competency: **catalog**.
+
+## Learning objectives
+
+- Explain why the SCF publishes risk and threat catalogs alongside the control catalog.
+
+- Name the 14 risk groupings and the total number of cataloged risks.
+
+- Distinguish the 14 natural threats from the 31 man-made threats.
+
+- Map a risk to the controls that address it using the STRM relationship.
+
+- Use the risk and threat catalogs to justify a control's inclusion in a Living Control Set.
+
+## 8.1 Why a Risk and Threat Catalog
+
+_40 minutes_
+
+A control catalog tells you what to do. A risk and threat catalog tells you why the control exists and what it is defending against. The SCF publishes both, and the relationship between them is what makes a control set defensible rather than a checklist.
+
+The SCF 2026.3 release catalogs **65 risks** grouped into **14 risk groupings**, and **45 threats** split into **14 natural threats** and **31 man-made threats**. These are the same risks and threats the SCF's controls are written to address, and they are the vocabulary the SCF Council uses when it explains why a control carries the weight it does.
+
+> **Source of truth**
+>
+> Every figure in this module is taken from the SCF-2026.3 risk-catalog.md and threat-catalog.md sheets in the OKF bundle. The risk and threat catalogs are part of the SCF's free published material under CC BY-ND 4.0.
+
+- **65 risks** in **14 groupings**.
+- **45 threats**: 14 natural (NT-1 to NT-14) and 31 man-made (MT-1 to MT-31).
+- Each risk and threat is cross-mapped to SCF controls through the same Set Theory Relationship Mapping used for focal documents.
+
+### Key terms
+
+- **Risk grouping** - A category that collects related risks, e.g. Exposure, Governance, Supply Chain.
+- **Natural threat** - A threat arising from natural phenomena - 14 cataloged, NT-1 to NT-14.
+- **Man-made threat** - A threat arising from human action - 31 cataloged, MT-1 to MT-31.
+
+## 8.2 The 14 Risk Groupings
+
+_45 minutes_
+
+The 65 risks are distributed across 14 groupings. The distribution is itself informative: Exposure and Governance dominate, which mirrors where most organizations actually lose control of their posture.
+
+**Risk distribution across the 14 groupings (65 risks total)**
+| # | Risk grouping | Risks |
+|---|---|---|
+| 1 | Exposure | 11 |
+| 2 | Governance | 10 |
+| 3 | Supply Chain | 7 |
+| 4 | Artificial Intelligence & Autonomous Technologies | 6 |
+| 5 | Information Protection | 6 |
+| 6 | Access Control | 5 |
+| 7 | Business Continuity | 5 |
+| 8 | Incident Response | 4 |
+| 9 | Asset Management | 3 |
+| 10 | Operational Resilience | 2 |
+| 11 | Situational Awareness | 2 |
+| 12 | Safety | 2 |
+| 13 | Operational Technology | 1 |
+| 14 | Personnel | 1 |
+
+Three observations carry into scoping work:
+
+1. **Exposure (11) is the largest grouping** - it captures the risks that come from being visible and reachable, which is where most external-facing controls earn their weight.
+2. **Governance (10) is close behind** - governance failures are the second-most-common source of material weakness, which is why GOV-domain controls carry weight 10 so often.
+3. **Supply Chain (7)** reflects the SCF Council's view that third-party risk is now a first-class concern, not an appendix to internal controls.
+
+### Key terms
+
+- **Risk** - A potential event or condition that, if it occurs, negatively impacts an objective.
+- **Exposure** - The largest risk grouping - risks arising from being visible and reachable.
+
+## 8.3 The 45 Threats: Natural and Man-Made
+
+_40 minutes_
+
+The SCF catalogs 45 threats, split into two families. The split matters because the controls that address a natural threat (flood, earthquake, pandemic) are different in kind from those that address a man-made one (insider, attacker, vendor failure).
+
+**Threat families in the SCF 2026.3 catalog**
+| Family | Count | Identifier range | Examples of scope |
+|---|---|---|---|
+| Natural | 14 | NT-1 to NT-14 | Weather, geological, biological, environmental events |
+| Man-made | 31 | MT-1 to MT-31 | Insider, external attacker, vendor, process failure, error |
+
+The man-made family is more than twice the size of the natural family, which is consistent with where most organizations' actual loss events come from. The natural family still matters because it drives the Business Continuity and Physical & Environmental Security domains, and because a control set that ignores natural threats cannot claim resilience.
+
+> **Using the catalogs**
+>
+> When you justify a control's inclusion to an assessor or to a board, the risk and threat catalogs are the vocabulary. 'This control addresses risk X, which is in grouping Y, and threat Z (man-made, MT-n)' is a defensible, auditable sentence.
+
+### Key terms
+
+- **Natural threat** - NT-1 to NT-14 - phenomena such as weather, geology, biology.
+- **Man-made threat** - MT-1 to MT-31 - human action, error or intent.
+
+## 8.4 From Risk to Control: The Justification Loop
+
+_45 minutes_
+
+The reason the catalogs exist is to close the loop between a risk statement and a control. The loop has four steps and it is the same loop the SCF Council uses when it adds or renumbers controls.
+
+1. **Name the risk** from the catalog (one of the 65, in one of the 14 groupings).
+2. **Name the threat** that realizes it (one of the 45, natural or man-made).
+3. **Find the controls** that address the risk/threat pair, using the STRM crosswalk or the domain structure of the catalog.
+4. **Record the justification** in your Living Control Set: risk, threat, control, evidence.
+
+This loop is what turns a tailored control set into a defensible one. A control that cannot be traced to a risk and a threat in the catalog is a control you are running on habit, and habit is not evidence.
+
+**The risk-to-control justification loop**
+| Step | Artifact | Output |
+|---|---|---|
+| 1 | Risk catalog | Named risk + grouping |
+| 2 | Threat catalog | Named threat + family |
+| 3 | Control catalog / STRM | Control identifier(s) |
+| 4 | Living Control Set (LCS) | Risk -> threat -> control -> evidence row |
+
+### Key terms
+
+- **Living Control Set (LCS)** - The tailored, maintained control set an organization actually runs.
+- **Justification** - The traceable link from a risk and threat to a control and its evidence.
+
+## Module 8 knowledge check
+
+How many risks does the SCF 2026.3 catalog contain, and into how many groupings?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] 45 risks in 14 groupings
+[( )] 65 risks in 5 groupings
+[(X)] 65 risks in 14 groupings
+[( )] 31 risks in 14 groupings
+***
+65 risks across 14 groupings. 45 is the threat count, not the risk count.
+***
+
+Which risk grouping is the largest in the SCF 2026.3 catalog?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Governance (10)
+[( )] Supply Chain (7)
+[(X)] Exposure (11)
+[( )] Information Protection (6)
+***
+Exposure has 11 risks, Governance 10, Supply Chain 7. Exposure captures risks arising from being visible and reachable.
+***
+
+How are the 45 cataloged threats split between natural and man-made?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] 22 natural and 23 man-made
+[(X)] 14 natural (NT-1 to NT-14) and 31 man-made (MT-1 to MT-31)
+[( )] 31 natural and 14 man-made
+[( )] 14 natural and 14 man-made
+***
+14 natural threats (NT-1..NT-14) and 31 man-made threats (MT-1..MT-31). Man-made threats are more than twice as numerous, which matches where most loss events originate.
+***
+
+Which statements about the risk and threat catalogs are correct?
+
+<!-- data-randomize data-max-trials="3" -->
+[[X]] They are part of the free SCF 2026.3 published material
+[[X]] They are cross-mapped to SCF controls using Set Theory Relationship Mapping
+[[X]] They provide the vocabulary for justifying a control's inclusion
+[[ ]] They are only available to organizations paying for an SCF subscription
+[[ ]] They replace the need for a separate risk assessment
+***
+The catalogs are free, CC BY-ND 4.0 published material, cross-mapped via STRM. They support but do not replace an organization's own risk assessment.
+***
+
+An organization wants to justify running a control that is not driven by any external obligation. Which catalog best supports that justification?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] The Focal Document index
+[(X)] The risk and threat catalogs
+[( )] The Evidence Request List
+[( )] The STRM document for that control
+***
+DSR controls are justified by internal risk appetite, and the risk/threat catalogs are the vocabulary for that justification. Focal documents and STRMs support MCR, not DSR.
+***
+
+Which risk grouping contains exactly one risk?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Operational Resilience
+[( )] Situational Awareness
+[(X)] Operational Technology (and Personnel)
+[( )] Safety
+***
+Two groupings contain a single risk: Operational Technology (1) and Personnel (1). Safety has 2, Situational Awareness has 2, Operational Resilience has 2.
+***
+
+# Module 9 - Assessment Practice & the Capstone
+
+Estimated effort: **5 hours**. Competency: **documents**.
+
+## Learning objectives
+
+- Explain the difference between control-level and conformity-level designations.
+
+- State the four control designations and the four conformity designations with their thresholds.
+
+- Describe the three assessment methods and their rigor pairings.
+
+- Explain the re-evaluation window and when a compensating control is acceptable.
+
+- Describe the three-year certification lifecycle and the capstone deliverables.
+
+## 9.1 Control-Level vs Conformity-Level Designations
+
+_45 minutes_
+
+Two different designation systems are used in a conformity assessment, and confusing them is the most common source of misreported results. **Control-level** designations describe a single control. **Conformity-level** designations describe the whole assessment.
+
+**The two designation systems**
+| Level | Designations | What it describes |
+|---|---|---|
+| Control | Satisfactory / Deficient / Compensating Control / N/A | Whether one control's AOs are met. |
+| Conformity | Strictly Conforms / Conforms / Significant Deficiency / Material Weakness | The percentage of controls that meet the criteria. |
+
+A control is **Satisfactory** only if every applicable Assessment Objective is Satisfactory, Compensating Control or N/A. A single Deficient AO makes the whole control Deficient. The conformity designation is then computed from the count of Satisfactory controls.
+
+### Key terms
+
+- **Control-level designation** - Satisfactory / Deficient / Compensating Control / N/A for one control.
+- **Conformity-level designation** - Strictly Conforms / Conforms / Significant Deficiency / Material Weakness for the whole assessment.
+
+## 9.2 Conformity Thresholds
+
+_40 minutes_
+
+The four conformity designations are defined by the percentage of assessed controls that meet the conformity criteria. The thresholds are fixed and published in the CAP body of knowledge.
+
+**Conformity designations and their thresholds**
+| Designation | Threshold | Meaning |
+|---|---|---|
+| Strictly Conforms | 100% | Every assessed control meets the criteria. |
+| Conforms | >= 80% | At least 80% of assessed controls meet the criteria. |
+| Significant Deficiency | >= 70% and < 80% | A material gap requiring remediation. |
+| Material Weakness | < 70% | A serious failure of the control environment. |
+
+> **Reporting consequence**
+>
+> A Significant Deficiency or Material Weakness designation is not a private finding. It is reported to the OSA and, depending on the SCR CAP terms, may be reportable to regulators or to the OSA's customers under contractual obligations.
+
+### Key terms
+
+- **OSA** - Organization Seeking Assessment - the entity being assessed.
+- **Material Weakness** - A conformity designation below 70% of assessed controls meeting criteria.
+
+## 9.3 Assessment Rigor and Methods
+
+_50 minutes_
+
+Every assessment has two independent dimensions: **rigor** (how deep) and **method** (how evidence is gathered). Any method can be used with any rigor; the published pairings are guidance, not constraints.
+
+**Assessment rigor levels**
+| Rigor | Depth | Typical use |
+|---|---|---|
+| Standard | Baseline testing of the control | Routine surveillance assessments. |
+| Enhanced | Deeper testing with more evidence | Higher-risk controls or new implementations. |
+| Comprehensive | Continuous, automated, human-reviewed | Critical / material controls. |
+
+**Assessment methods and their character**
+| Method | Abbreviation | Character | Typical rigor pairing |
+|---|---|---|---|
+| Manual Performance of Independent Testing | MPIT | Point-in-time human testing | Standard or Enhanced |
+| Automated Performance of Independent Testing | APIT | Automated testing at a point in time | Standard or Enhanced |
+| Automated Evidence with Human Review | AEHR | Continuous automated with recurring human review | Comprehensive |
+
+The practical consequence: an assessor can run a Comprehensive assessment using MPIT if the circumstances warrant it, and the BoK does not prohibit it. The pairing table is guidance for planning, not a rule.
+
+### Key terms
+
+- **MPIT** - Manual Performance of Independent Testing - point-in-time human testing.
+- **APIT** - Automated Performance of Independent Testing - automated testing at a point in time.
+- **AEHR** - Automated Evidence with Human Review - continuous automated with recurring human review.
+- **CICA** - Continuous Independent Conformity Assessment - incremental assessment built on automated evidence.
+
+## 9.4 Re-evaluation and Compensating Controls
+
+_45 minutes_
+
+Two mechanisms keep an assessment honest after the first pass: the **re-evaluation window** and **compensating controls**.
+
+> **Re-evaluation window**
+>
+> A control designated Deficient can be re-evaluated with additional evidence during the assessment and for up to ten business days following the active assessment period - and only while the Report of Conformity (ROC) has not yet been delivered to the OSA. After delivery, the designation stands.
+
+A **compensating control** is an alternative control implemented in lieu of the deficient one that provides equivalent or comparable protection. Three conditions must hold:
+
+- It is **applicable** to the deficiency.
+- It is **reasonable** in the circumstances.
+- It is **implemented and operating properly** - not merely planned.
+
+A deficient control cannot itself be used as a compensating control, and there is no cross-domain requirement. For a material control, a compensating control must be validated by the assessor and cannot simply be asserted by the organization.
+
+### Key terms
+
+- **Re-evaluation window** - During the assessment plus up to 10 business days after, before ROC delivery.
+- **Compensating control** - An alternative control providing equivalent or comparable protection.
+- **ROC** - Report of Conformity - the deliverable of a conformity assessment.
+
+## 9.5 The Three-Year Certification Lifecycle
+
+_40 minutes_
+
+An SCR CAP certification runs on a three-year cycle. The cycle exists to balance assurance depth with cost: a full assessment in year one, lighter checks in years two and three, then re-assessment.
+
+**The three-year certification lifecycle**
+| Year | Activity | Deadline |
+|---|---|---|
+| Year 1 | Full conformity assessment, Report of Conformity issued | Assessment start |
+| Year 2 | Self-attestation by the OSA | First anniversary of assessment start |
+| Year 3 | Self-attestation by the OSA | Second anniversary of assessment start |
+| End of Year 3 | Certification expires | End of the third year |
+
+The self-attestations in years two and three are not free passes: they are signed statements by the OSA that the control environment has not materially degraded since the last assessment. A material change in the environment during the cycle is what triggers an out-of-cycle re-assessment.
+
+### Key terms
+
+- **Self-attestation** - A signed statement by the OSA that the control environment has not materially degraded.
+- **Out-of-cycle re-assessment** - A re-assessment triggered by a material change during the cycle.
+
+## 9.6 Your Capstone
+
+_60 minutes_
+
+The capstone is the graded instrument for this course. It has two deliverables, weighted equally, plus a defense presentation and peer review.
+
+**Capstone deliverables**
+| Deliverable | Format | Weight |
+|---|---|---|
+| Assessment Report | Document | 50% |
+| Control Matrix | Code / spreadsheet | 50% |
+
+- **Defense presentation**: 15 minutes to a panel of three assessors.
+- **Peer review**: minimum of two reviewers per submission.
+- **Rubric**: a single criterion, Accuracy, scored on four levels - Errors, Partial, Good, Excellent - at 100% weight.
+- **Mastery threshold**: 70%.
+
+The capstone is assessed at the course level, not per module. It is the instrument that turns the seven modules of theory into a demonstrated capability, and it is what the certification record attaches to.
+
+> **Evaluation framework reminder**
+>
+> The course evaluation framework weights three components: Formative 30% (threshold 60), Summative 40% (threshold 70), Capstone 30% (threshold 70). Retakes are allowed, with a maximum of three attempts.
+
+### Key terms
+
+- **Capstone** - The graded end-of-course project: Assessment Report + Control Matrix + defense.
+- **Peer review** - Review by a minimum of two peers, required for capstone submission.
+
+## Module 9 knowledge check
+
+A control has three applicable Assessment Objectives: one Satisfactory, one Compensating Control, and one Deficient. What is the control-level designation?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Satisfactory
+[( )] Compensating Control
+[(X)] Deficient
+[( )] Not Applicable
+***
+A control is Satisfactory only if every applicable AO is Satisfactory, Compensating Control or N/A. A single Deficient AO makes the whole control Deficient.
+***
+
+An assessment finds that 78% of assessed controls meet the conformity criteria. What is the conformity designation?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Strictly Conforms
+[( )] Conforms
+[(X)] Significant Deficiency
+[( )] Material Weakness
+***
+Significant Deficiency covers at least 70% but less than 80%. 78% falls in that band.
+***
+
+Which statements about a compensating control are correct?
+
+<!-- data-randomize data-max-trials="3" -->
+[[X]] It must be validated as applicable, reasonable, and implemented and operating properly
+[[X]] It cannot itself be a deficient control
+[[X]] It provides equivalent or comparable protection to the deficient control
+[[ ]] It removes the requirement to test the underlying control's AOs
+[[ ]] It must be a control from a different SCF domain
+***
+The three validation conditions and the equivalent-or-comparable protection test come from the BoK. A deficient control cannot compensate, and there is no cross-domain requirement.
+***
+
+Which assessment method is characterized by continuous evaluation with recurring human review validating automated results?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] MPIT
+[( )] APIT
+[(X)] AEHR
+[( )] CICA
+***
+AEHR - Automated Evidence with Human Review - is the continuous method and pairs with Comprehensive rigor. CICA is the incremental cadence built on automated evidence, not a method.
+***
+
+What is the deadline for re-evaluating a control designated Deficient with additional evidence?
+
+<!-- data-randomize data-max-trials="3" -->
+[( )] Any time before the ROC is published
+[( )] Within 30 business days of the assessment
+[(X)] During the assessment and for up to ten business days after the active assessment period
+[( )] There is no re-evaluation window
+***
+The window is during the assessment and up to ten business days after - and only while the ROC has not yet been delivered to the OSA.
+***
+
+Which are the capstone's deliverables and requirements?
+
+<!-- data-randomize data-max-trials="3" -->
+[[X]] An Assessment Report worth 50%
+[[X]] A Control Matrix worth 50%
+[[X]] A 15-minute defense presentation to a panel of three
+[[X]] Peer review by a minimum of two reviewers
+[[ ]] A published tool conforming to the SCF's CC BY-ND 4.0 restriction
+[[ ]] A 40-page written examination
+***
+The two deliverables carry 50% each, and the defense and peer review are both required. The CC BY-ND restriction is a licence constraint on SCF content, not a grading instrument.
 ***

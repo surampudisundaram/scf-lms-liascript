@@ -581,6 +581,59 @@ MODULE_10 = {
             ],
         },
     ],
+        {
+            "id": "10.5",
+            "title": "Capstone Examples: Student Submissions",
+            "minutes": 30,
+            "blocks": [
+                P("The following are anonymized examples from a cohort of ten students who completed the capstone. "
+                  "They illustrate the range of outcomes and the common failure modes."),
+                TBL(["Student", "Assessment Report", "Control Matrix", "Overall", "Result"], [
+                    ["Alice Chen", "92", "88", "90", "Pass"],
+                    ["Bob Martinez", "78", "72", "75", "Pass"],
+                    ["Carol Johnson", "95", "91", "93", "Pass"],
+                    ["David Park", "68", "62", "65", "Fail"],
+                    ["Eve Williams", "85", "80", "82.5", "Pass"],
+                    ["Frank Lee", "60", "55", "57.5", "Fail"],
+                    ["Grace Kim", "88", "84", "86", "Pass"],
+                    ["Henry Brown", "72", "68", "70", "Pass"],
+                    ["Ivy Taylor", "90", "86", "88", "Pass"],
+                    ["Jack Wilson", "65", "60", "62.5", "Fail"],
+                ], caption="Sample capstone cohort (10 students)"),
+                P("Three patterns emerged from the cohort:"),
+                OL([
+                    "**High performers (Alice, Carol, Ivy, Grace)** scored above 85 on both deliverables. Their "
+                    "Assessment Reports clearly mapped each control to evidence, and their Control Matrices "
+                    "included the AO-to-evidence traceability column.",
+                    "**Borderline passes (Bob, Eve, Henry)** scored between 70 and 85. Common gap: the Control "
+                    "Matrix listed controls but omitted the reciprocal AO references, making verification harder.",
+                    "**Failures (David, Frank, Jack)** scored below 70. Two root causes dominated: (1) Assessment "
+                    "Reports that described controls without citing evidence, and (2) Control Matrices that "
+                    "included controls outside the assessment boundary.",
+                ]),
+                TBL(["Submission", "Reviewer 1", "Reviewer 2", "Avg Peer Score"], [
+                    ["Alice Chen", "92", "88", "90"],
+                    ["Carol Johnson", "94", "90", "92"],
+                    ["David Park", "65", "60", "62.5"],
+                    ["Jack Wilson", "58", "55", "56.5"],
+                ], caption="Sample peer review scores"),
+                TBL(["Submission", "Panel 1", "Panel 2", "Panel 3", "Avg Defense"], [
+                    ["Alice Chen", "95", "92", "90", "92.3"],
+                    ["Carol Johnson", "96", "94", "92", "94"],
+                    ["David Park", "68", "65", "62", "65"],
+                    ["Jack Wilson", "60", "58", "55", "57.7"],
+                ], caption="Sample defense presentation scores (panel of 3)"),
+                NOTE("Learning from failure",
+                     "The most common capstone failure is not lack of knowledge but lack of traceability. An "
+                     "Assessment Report that says 'GOV-01 is implemented' without citing the evidence artifact, "
+                     "the AO it satisfies, and the collection method is a report an assessor cannot verify. "
+                     "The Control Matrix exists precisely to make that traceability machine-readable."),
+            ],
+            "terms": [
+                ("Traceability", "The ability to trace a control claim to its evidence, AO and collection method."),
+                ("Peer review", "Review by minimum two peers, required for capstone submission."),
+            ],
+        },
     "questions": [
         Q("m10q1", "single",
           "How many phases does the SCF lifecycle have, from source frameworks to capstone mastery?",

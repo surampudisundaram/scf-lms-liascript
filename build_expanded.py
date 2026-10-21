@@ -107,8 +107,8 @@ version: 2026.3.0
 language: en
 narrator: US English Female
 
-comment: SCF-2026.3 Secure Controls Framework (Expanded Edition) - 9 modules,
-40+ hours, built from the SCF-2026.3 OKF bundle.
+comment: SCF-2026.3 Secure Controls Framework (Expanded Edition) - 10 modules,
+50+ hours, built from the SCF-2026.3 OKF bundle.
 -->
 """
     parts.append(HEADER)

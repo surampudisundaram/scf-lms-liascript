@@ -11,7 +11,7 @@ import subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BUNDLE = r"D:\Secure Controls Framework\scf_lms_bundle_v2"
-sys.path.insert(0, os.path.join(BUNDLE, "build"))
+sys.path.insert(0, HERE)
 import render  # noqa: E402
 
 CONTENT = os.path.join(os.path.dirname(BUNDLE), "course_content.py")
